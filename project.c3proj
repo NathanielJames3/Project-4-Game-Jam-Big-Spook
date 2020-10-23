@@ -59,7 +59,8 @@
 	"objectTypes": {
 		"items": [
 			"Platforms",
-			"Sprite"
+			"Player",
+			"Enemy"
 		],
 		"subfolders": []
 	},
