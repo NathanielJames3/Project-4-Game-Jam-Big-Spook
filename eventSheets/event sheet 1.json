@@ -1,0 +1,18 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 206508158373565
+				}
+			],
+			"actions": [],
+			"sid": 916091477849943
+		}
+	],
+	"sid": 586479334890723
+}
