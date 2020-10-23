@@ -10,7 +10,17 @@
 					"sid": 206508158373565
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "set-canvas-size",
+					"objectClass": "System",
+					"sid": 119140290339242,
+					"parameters": {
+						"width": "200",
+						"height": "100"
+					}
+				}
+			],
 			"sid": 916091477849943
 		}
 	],
