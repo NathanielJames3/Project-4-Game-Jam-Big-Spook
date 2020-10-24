@@ -11,7 +11,13 @@
 			"sid": 966918999496839
 		}
 	],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 165223390919505
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
