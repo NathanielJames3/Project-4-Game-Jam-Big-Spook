@@ -85,7 +85,8 @@
 			"Platforms",
 			"Player",
 			"Enemy",
-			"Path_Arrow"
+			"Path_Arrow",
+			"ZoomIn"
 		],
 		"subfolders": []
 	},

@@ -1,0 +1,44 @@
+{
+	"name": "ZoomIn",
+	"plugin-id": "Sprite",
+	"sid": 271146975177719,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "TargetZoom",
+			"type": "number",
+			"desc": "",
+			"sid": 966918999496839
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2430495,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 404759952907874,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
