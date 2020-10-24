@@ -309,8 +309,8 @@
 					},
 					"world": {
 						"x": 181.68103045334777,
-						"y": 56.2934947062665,
-						"width": 390.1012905478884,
+						"y": 63.5351041996837,
+						"width": 382.85968105447125,
 						"height": 15.0574317608701,
 						"originX": 0,
 						"originY": 0,
@@ -389,7 +389,7 @@
 					},
 					"world": {
 						"x": 166.84647096518054,
-						"y": 55.95041322314063,
+						"y": 63.95041322314063,
 						"width": 96.43586979436606,
 						"height": 15.0574317608701,
 						"originX": 0,
@@ -429,7 +429,7 @@
 					},
 					"world": {
 						"x": 276.28646448490053,
-						"y": 56.01237293402296,
+						"y": 64.01237293402296,
 						"width": 96.43586979436606,
 						"height": 15.0574317608701,
 						"originX": 0,
@@ -504,12 +504,12 @@
 						"Pathfinding": {
 							"properties": {
 								"cell-size": 30,
-								"cell-border": -1,
+								"cell-border": -16,
 								"obstacles": "solids",
-								"max-speed": 32,
+								"max-speed": 100,
 								"acceleration": 1000,
 								"deceleration": 2000,
-								"rotate-speed": 160,
+								"rotate-speed": 300,
 								"rotate-object": true,
 								"diagonals": true,
 								"enabled": true
