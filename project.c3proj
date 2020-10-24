@@ -53,6 +53,14 @@
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
 		}
 	],
 	"uniqueId": "dfhyv3pltye",

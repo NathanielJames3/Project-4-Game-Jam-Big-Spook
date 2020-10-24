@@ -495,12 +495,29 @@
 					},
 					"uid": 13,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 50,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 43.16203485284886,
-						"y": 385.84620604424435,
-						"width": 30.16620625799672,
-						"height": 30.16620625799672,
+						"x": 221.22311067720182,
+						"y": 470.51250435060854,
+						"width": 13.735564071209104,
+						"height": 13.735564071209104,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
