@@ -27,78 +27,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 588573374963613,
-					"parameters": {
-						"first-value": "Player.X",
-						"comparison": 2,
-						"second-value": "Enemy.X"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 119578423369821,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 266495012001968,
-					"parameters": {
-						"first-value": "Player.X",
-						"comparison": 4,
-						"second-value": "Enemy.X"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 542519044292067,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 794270551704149,
-					"parameters": {
-						"first-value": "Player.X",
-						"comparison": 2,
-						"second-value": "Enemy.X"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 709633630319527,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 320306945330030,
-					"parameters": {
-						"first-value": "Player.X",
-						"comparison": 4,
-						"second-value": "Enemy.X"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 264890886361852,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "for-each",
 					"objectClass": "System",
 					"sid": 946019639159831,
@@ -129,6 +57,149 @@
 				}
 			],
 			"sid": 539982818275017
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Pathfinding",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 470363988557103,
+							"parameters": {
+								"interval-seconds": "0.5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "find-path",
+							"objectClass": "Enemy",
+							"sid": 208128527415911,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Path_Arrow",
+							"sid": 741945166170487
+						}
+					],
+					"sid": 720783261568647
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-path-found",
+							"objectClass": "Enemy",
+							"sid": 675630012416279,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"actions": [
+						{
+							"id": "move-along-path",
+							"objectClass": "Enemy",
+							"sid": 790493185939903,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"sid": 891784163207871,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "repeat",
+									"objectClass": "System",
+									"sid": 765630771781509,
+									"parameters": {
+										"count": "Enemy.Pathfinding.NodeCount"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 929528751536596,
+									"parameters": {
+										"object-to-create": "Path_Arrow",
+										"layer": "1",
+										"x": "Enemy.Pathfinding.NodeXAt(loopindex)",
+										"y": "Enemy.Pathfinding.NodeYAt(loopindex)"
+									}
+								},
+								{
+									"id": "set-size",
+									"objectClass": "Path_Arrow",
+									"sid": 554600118586652,
+									"parameters": {
+										"width": "6",
+										"height": "6"
+									}
+								}
+							],
+							"sid": 108308734310172
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-failed-to-find-path",
+							"objectClass": "Enemy",
+							"sid": 689782097061599,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "Enemy",
+							"sid": 796299216034726,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "1.0"
+							}
+						}
+					],
+					"sid": 108990206714560
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-arrived",
+							"objectClass": "Enemy",
+							"sid": 585557114631875,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Path_Arrow",
+							"sid": 177715281553506
+						}
+					],
+					"sid": 618821996805383
+				}
+			],
+			"sid": 709086370396600
 		}
 	],
 	"sid": 586479334890723

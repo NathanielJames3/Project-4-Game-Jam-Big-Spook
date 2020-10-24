@@ -501,16 +501,22 @@
 								"bound-by": "edge"
 							}
 						},
-						"Bullet": {
+						"Pathfinding": {
 							"properties": {
-								"speed": 50,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": true,
-								"set-angle": true,
-								"step": false,
+								"cell-size": 30,
+								"cell-border": -1,
+								"obstacles": "solids",
+								"max-speed": 200,
+								"acceleration": 1000,
+								"deceleration": 2000,
+								"rotate-speed": 135,
+								"rotate-object": true,
+								"diagonals": true,
 								"enabled": true
 							}
+						},
+						"Flash": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -518,6 +524,35 @@
 						"y": 470.51250435060854,
 						"width": 13.735564071209104,
 						"height": 13.735564071209104,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Path_Arrow",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -42.10978186600221,
+						"y": 269.7818435493805,
+						"width": 19.278659740246297,
+						"height": 19.278659740246297,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

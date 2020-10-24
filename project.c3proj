@@ -56,8 +56,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
@@ -68,7 +76,8 @@
 		"items": [
 			"Platforms",
 			"Player",
-			"Enemy"
+			"Enemy",
+			"Path_Arrow"
 		],
 		"subfolders": []
 	},

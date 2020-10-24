@@ -1,26 +1,10 @@
 {
-	"name": "Enemy",
+	"name": "Path_Arrow",
 	"plugin-id": "Sprite",
-	"sid": 824630902548415,
+	"sid": 657470033281082,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "bound",
-			"name": "BoundToLayout",
-			"sid": 926511923244176
-		},
-		{
-			"behaviorId": "Pathfinding",
-			"name": "Pathfinding",
-			"sid": 784824218838592
-		},
-		{
-			"behaviorId": "Flash",
-			"name": "Flash",
-			"sid": 791252899671792
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -34,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4939924,
+						"imageSpriteId": 5821423,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 167670777616687,
+				"sid": 446494779601362,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
