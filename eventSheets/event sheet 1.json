@@ -56,7 +56,8 @@
 					}
 				}
 			],
-			"sid": 539982818275017
+			"sid": 539982818275017,
+			"disabled": true
 		},
 		{
 			"eventType": "group",
