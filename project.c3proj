@@ -98,13 +98,13 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Level"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Level Event sheet"
 		],
 		"subfolders": []
 	},
