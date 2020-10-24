@@ -2,6 +2,10 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "comment",
+			"text": "Default level camera setup."
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -21,43 +25,67 @@
 					}
 				}
 			],
-			"sid": 916091477849943
+			"sid": 916091477849943,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "NEEDS TO BE WORKED ON."
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 204606362409196
+						}
+					],
+					"actions": [
+						{
+							"id": "set-x",
+							"objectClass": "ZoomIn",
+							"sid": 916390763488775,
+							"parameters": {
+								"x": "Player.X"
+							}
+						},
+						{
+							"id": "set-y",
+							"objectClass": "ZoomIn",
+							"sid": 699203710393377,
+							"parameters": {
+								"y": "Player.Y"
+							}
+						}
+					],
+					"sid": 396206904754843
+				}
+			]
+		},
+		{
+			"eventType": "comment",
+			"text": "Level restarts when enemy is on contact with player."
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "for-each",
-					"objectClass": "System",
-					"sid": 946019639159831,
+					"id": "on-collision-with-another-object",
+					"objectClass": "Enemy",
+					"sid": 489984895309176,
 					"parameters": {
-						"object": "Enemy"
-					}
-				},
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 393519822570292,
-					"parameters": {
-						"first-value": "distance(Player.X,Player.Y,Enemy.X,Enemy.Y)",
-						"comparison": 3,
-						"second-value": "300"
+						"object": "Player"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "set-angle-toward-position",
-					"objectClass": "Enemy",
-					"sid": 649489145222295,
-					"parameters": {
-						"x": "Player.X",
-						"y": "Player.Y"
-					}
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 897952320836732
 				}
 			],
-			"sid": 539982818275017,
-			"disabled": true
+			"sid": 801841906169822
 		},
 		{
 			"eventType": "group",
@@ -66,6 +94,10 @@
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
+				{
+					"eventType": "comment",
+					"text": "Enemy finds path."
+				},
 				{
 					"eventType": "block",
 					"conditions": [
@@ -98,6 +130,10 @@
 					"sid": 720783261568647
 				},
 				{
+					"eventType": "comment",
+					"text": "Enemy moving along path."
+				},
+				{
 					"eventType": "block",
 					"conditions": [
 						{
@@ -117,6 +153,10 @@
 					],
 					"sid": 891784163207871,
 					"children": [
+						{
+							"eventType": "comment",
+							"text": "Creating Path_Arrow object."
+						},
 						{
 							"eventType": "block",
 							"conditions": [
@@ -181,6 +221,10 @@
 					"sid": 108990206714560
 				},
 				{
+					"eventType": "comment",
+					"text": "Path_Arrow object destroyed when enemy meets it."
+				},
+				{
 					"eventType": "block",
 					"conditions": [
 						{
@@ -201,27 +245,6 @@
 				}
 			],
 			"sid": 709086370396600
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Enemy",
-					"sid": 284989607640988,
-					"parameters": {
-						"object": "Player"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 292294231344009
-				}
-			],
-			"sid": 945150878783549
 		},
 		{
 			"eventType": "group",
@@ -249,6 +272,10 @@
 					"isStatic": true,
 					"isConstant": false,
 					"sid": 311365762955863
+				},
+				{
+					"eventType": "comment",
+					"text": "Zooms in when on contact with ZoomIn trigger."
 				},
 				{
 					"eventType": "block",
@@ -303,6 +330,10 @@
 					]
 				},
 				{
+					"eventType": "comment",
+					"text": "Zooms out when out of contact with ZoomIn trigger."
+				},
+				{
 					"eventType": "block",
 					"conditions": [
 						{
@@ -355,12 +386,16 @@
 					]
 				},
 				{
+					"eventType": "comment",
+					"text": "Enemy activates the zoom in when overlapping."
+				},
+				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "is-overlapping-another-object",
-							"objectClass": "Player",
-							"sid": 826240269985933,
+							"objectClass": "Enemy",
+							"sid": 523575998158868,
 							"parameters": {
 								"object": "ZoomIn"
 							}
@@ -403,6 +438,42 @@
 				}
 			],
 			"sid": 402583201025678
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "for-each",
+					"objectClass": "System",
+					"sid": 166329881628515,
+					"parameters": {
+						"object": "Enemy"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 244181181887797,
+					"parameters": {
+						"first-value": "distance(Player.X,Player.Y,Enemy.X,Enemy.Y)",
+						"comparison": 3,
+						"second-value": "300"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle-toward-position",
+					"objectClass": "Enemy",
+					"sid": 762982969575052,
+					"parameters": {
+						"x": "Player.X",
+						"y": "Player.Y"
+					}
+				}
+			],
+			"sid": 841653825148617,
+			"disabled": true
 		}
 	],
 	"sid": 586479334890723
