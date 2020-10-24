@@ -506,7 +506,7 @@
 								"speed": 50,
 								"acceleration": 0,
 								"gravity": 0,
-								"bounce-off-solids": false,
+								"bounce-off-solids": true,
 								"set-angle": true,
 								"step": false,
 								"enabled": true
