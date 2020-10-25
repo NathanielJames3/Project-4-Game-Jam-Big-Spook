@@ -32,43 +32,33 @@
 							}
 						}
 					],
-					"sid": 379283048966273,
-					"children": [
+					"sid": 379283048966273
+				},
+				{
+					"eventType": "comment",
+					"text": "Zooming in on player."
+				},
+				{
+					"eventType": "block",
+					"conditions": [
 						{
-							"eventType": "comment",
-							"text": "NEEDS TO BE WORKED ON."
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "every-tick",
-									"objectClass": "System",
-									"sid": 128911397201910
-								}
-							],
-							"actions": [
-								{
-									"id": "set-x",
-									"objectClass": "ZoomIn",
-									"sid": 569078748863476,
-									"parameters": {
-										"x": "Player.X"
-									}
-								},
-								{
-									"id": "set-y",
-									"objectClass": "ZoomIn",
-									"sid": 988665813926353,
-									"parameters": {
-										"y": "Player.Y"
-									}
-								}
-							],
-							"sid": 833015748395342,
-							"disabled": true
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 967364194208246
 						}
-					]
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "ZoomIn",
+							"sid": 437728129028162,
+							"parameters": {
+								"object": "Player",
+								"image-point-optional": "0"
+							}
+						}
+					],
+					"sid": 588752894113649
 				},
 				{
 					"eventType": "comment",
