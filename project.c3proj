@@ -86,7 +86,8 @@
 			"Player",
 			"Enemy",
 			"Path_Arrow",
-			"ZoomIn"
+			"ZoomIn",
+			"EnemyPlatform"
 		],
 		"subfolders": []
 	},
@@ -98,13 +99,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Level"
+			"Level",
+			"Title Screen",
+			"End Screen"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Level Event sheet"
+			"Game Event sheet"
 		],
 		"subfolders": []
 	},
