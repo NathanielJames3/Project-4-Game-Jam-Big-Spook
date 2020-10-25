@@ -23,6 +23,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -88,7 +104,11 @@
 			"Path_Arrow",
 			"ZoomIn",
 			"EnemyPlatform",
-			"PointLight_Player"
+			"PointLight_Player",
+			"KeySpawn_Object",
+			"Key",
+			"Keyboard",
+			"Browser"
 		],
 		"subfolders": []
 	},

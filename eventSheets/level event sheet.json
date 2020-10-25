@@ -494,6 +494,79 @@
 				}
 			],
 			"sid": 412683925447573
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 111591556610723
+				},
+				{
+					"id": "pick-random-instance",
+					"objectClass": "System",
+					"sid": 993890460802593,
+					"parameters": {
+						"object": "KeySpawn_Object"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "KeySpawn_Object",
+					"sid": 133201152949404,
+					"parameters": {
+						"object": "Key",
+						"layer": "1",
+						"image-point": "0"
+					}
+				}
+			],
+			"sid": 499107640720476
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 367370512768111,
+					"parameters": {
+						"key": 82
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 780864001829130
+				}
+			],
+			"sid": 379724243775296
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 368713973843524,
+					"parameters": {
+						"key": 27
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "close",
+					"objectClass": "Browser",
+					"sid": 250848290317553
+				}
+			],
+			"sid": 205086260196331
 		}
 	],
 	"sid": 586479334890723
