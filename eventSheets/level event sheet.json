@@ -36,7 +36,7 @@
 				},
 				{
 					"eventType": "comment",
-					"text": "Zooming in on player."
+					"text": "Zooming in on player. Lighting for player."
 				},
 				{
 					"eventType": "block",
@@ -52,6 +52,15 @@
 							"id": "set-position-to-another-object",
 							"objectClass": "ZoomIn",
 							"sid": 437728129028162,
+							"parameters": {
+								"object": "Player",
+								"image-point-optional": "0"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "PointLight_Player",
+							"sid": 915469642079344,
 							"parameters": {
 								"object": "Player",
 								"image-point-optional": "0"

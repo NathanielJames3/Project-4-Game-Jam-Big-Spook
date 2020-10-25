@@ -88,7 +88,8 @@
 			"Path_Arrow",
 			"ZoomIn",
 			"EnemyPlatform",
-			"Sprite"
+			"Sprite",
+			"PointLight_Player"
 		],
 		"subfolders": []
 	},
