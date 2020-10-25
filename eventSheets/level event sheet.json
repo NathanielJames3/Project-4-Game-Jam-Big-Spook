@@ -12,6 +12,16 @@
 			"sid": 141398425180736
 		},
 		{
+			"eventType": "variable",
+			"name": "Key1",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 371300629457279
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Main Game",
@@ -505,6 +515,109 @@
 				{
 					"eventType": "group",
 					"disabled": false,
+					"title": "Key Spawning",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "Way 1: Random key spawns."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 727279402565089
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 238909440856309,
+									"parameters": {
+										"variable": "Key1",
+										"value": "Key.Count"
+									}
+								}
+							],
+							"sid": 611172255715482
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "pick-random-instance",
+									"objectClass": "System",
+									"sid": 937754414416629,
+									"parameters": {
+										"object": "Key"
+									}
+								},
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 372450526792841,
+									"parameters": {
+										"variable": "Key1",
+										"comparison": 4,
+										"value": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Key",
+									"sid": 604980381792974
+								}
+							],
+							"sid": 815933495524062
+						},
+						{
+							"eventType": "comment",
+							"text": "Way 2: Random key spawns."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-start-of-layout",
+									"objectClass": "System",
+									"sid": 543026109941163
+								},
+								{
+									"id": "pick-random-instance",
+									"objectClass": "System",
+									"sid": 521281732168141,
+									"parameters": {
+										"object": "KeySpawn_Object"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "KeySpawn_Object",
+									"sid": 927389873254313,
+									"parameters": {
+										"object": "Key",
+										"layer": "1",
+										"image-point": "0"
+									}
+								}
+							],
+							"sid": 362966002401601,
+							"disabled": true
+						}
+					],
+					"sid": 868872817436032
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
 					"title": "Programming Shortcut Keys",
 					"description": "",
 					"isActiveOnStart": true,
@@ -638,51 +751,6 @@
 						}
 					],
 					"sid": 449088108528500
-				},
-				{
-					"eventType": "group",
-					"disabled": false,
-					"title": "Key Spawning",
-					"description": "",
-					"isActiveOnStart": true,
-					"children": [
-						{
-							"eventType": "comment",
-							"text": "Random key spawns."
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-start-of-layout",
-									"objectClass": "System",
-									"sid": 539168508055478
-								},
-								{
-									"id": "pick-random-instance",
-									"objectClass": "System",
-									"sid": 390451289870119,
-									"parameters": {
-										"object": "KeySpawn_Object"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "spawn-another-object",
-									"objectClass": "KeySpawn_Object",
-									"sid": 727633472069770,
-									"parameters": {
-										"object": "Key",
-										"layer": "1",
-										"image-point": "0"
-									}
-								}
-							],
-							"sid": 787882072018796
-						}
-					],
-					"sid": 814025522425854
 				}
 			],
 			"sid": 412683925447573
