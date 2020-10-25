@@ -96,12 +96,16 @@
 					"sid": 879109329730290
 				},
 				{
+					"eventType": "comment",
+					"text": "Player can not go through enemy walls."
+				},
+				{
 					"eventType": "block",
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Enemy",
-							"sid": 426867977912555,
+							"objectClass": "Player",
+							"sid": 644542922436219,
 							"parameters": {
 								"object": "EnemyPlatform"
 							}
@@ -109,9 +113,18 @@
 					],
 					"actions": [
 						{
+							"id": "set-enabled",
+							"objectClass": "EnemyPlatform",
+							"sid": 279688455248136,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 779087004207213,
+							"sid": 505946709909880,
 							"parameters": {
 								"seconds": "2.0"
 							}
@@ -119,24 +132,14 @@
 						{
 							"id": "set-enabled",
 							"objectClass": "EnemyPlatform",
-							"sid": 900805077460232,
-							"behaviorType": "Solid",
-							"parameters": {
-								"state": "enabled"
-							}
-						},
-						{
-							"id": "set-enabled",
-							"objectClass": "EnemyPlatform",
-							"sid": 122624910870546,
-							"disabled": true,
+							"sid": 405394433940859,
 							"behaviorType": "Solid",
 							"parameters": {
 								"state": "disabled"
 							}
 						}
 					],
-					"sid": 143096129377077
+					"sid": 558376320304474
 				},
 				{
 					"eventType": "group",
@@ -492,42 +495,6 @@
 				}
 			],
 			"sid": 412683925447573
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "for-each",
-					"objectClass": "System",
-					"sid": 166329881628515,
-					"parameters": {
-						"object": "Enemy"
-					}
-				},
-				{
-					"id": "compare-two-values",
-					"objectClass": "System",
-					"sid": 244181181887797,
-					"parameters": {
-						"first-value": "distance(Player.X,Player.Y,Enemy.X,Enemy.Y)",
-						"comparison": 3,
-						"second-value": "300"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-angle-toward-position",
-					"objectClass": "Enemy",
-					"sid": 762982969575052,
-					"parameters": {
-						"x": "Player.X",
-						"y": "Player.Y"
-					}
-				}
-			],
-			"sid": 841653825148617,
-			"disabled": true
 		}
 	],
 	"sid": 586479334890723

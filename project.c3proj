@@ -87,7 +87,8 @@
 			"Enemy",
 			"Path_Arrow",
 			"ZoomIn",
-			"EnemyPlatform"
+			"EnemyPlatform",
+			"Sprite"
 		],
 		"subfolders": []
 	},
