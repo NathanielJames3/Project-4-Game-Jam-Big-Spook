@@ -2,6 +2,16 @@
 	"name": "Level Event sheet",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Pause",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 141398425180736
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Main Game",
@@ -491,82 +501,191 @@
 						}
 					],
 					"sid": 203934600972691
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Programming Shortcut Keys",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "Resart layout."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 519768917163453,
+									"parameters": {
+										"key": 82
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "restart-layout",
+									"objectClass": "System",
+									"sid": 438495169287696
+								}
+							],
+							"sid": 781069637715749
+						},
+						{
+							"eventType": "comment",
+							"text": "Escape game."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 815852806466244,
+									"parameters": {
+										"key": 27
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "close",
+									"objectClass": "Browser",
+									"sid": 907311037674605
+								}
+							],
+							"sid": 236641161745545
+						},
+						{
+							"eventType": "comment",
+							"text": "Pause game."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 880155561895875,
+									"parameters": {
+										"key": 80
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "toggle-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 815271195284306,
+									"parameters": {
+										"variable": "Pause"
+									}
+								}
+							],
+							"sid": 258802931143501
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 786064836524540,
+									"parameters": {
+										"variable": "Pause"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-time-scale",
+									"objectClass": "System",
+									"sid": 247441317810958,
+									"parameters": {
+										"time-scale": "0"
+									}
+								}
+							],
+							"sid": 308109107365370
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 267132647561334,
+									"parameters": {
+										"variable": "Pause"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-time-scale",
+									"objectClass": "System",
+									"sid": 675881409927643,
+									"parameters": {
+										"time-scale": "1"
+									}
+								}
+							],
+							"sid": 984904989031721
+						}
+					],
+					"sid": 449088108528500
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Key Spawning",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "Random key spawns."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-start-of-layout",
+									"objectClass": "System",
+									"sid": 539168508055478
+								},
+								{
+									"id": "pick-random-instance",
+									"objectClass": "System",
+									"sid": 390451289870119,
+									"parameters": {
+										"object": "KeySpawn_Object"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "KeySpawn_Object",
+									"sid": 727633472069770,
+									"parameters": {
+										"object": "Key",
+										"layer": "1",
+										"image-point": "0"
+									}
+								}
+							],
+							"sid": 787882072018796
+						}
+					],
+					"sid": 814025522425854
 				}
 			],
 			"sid": 412683925447573
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 111591556610723
-				},
-				{
-					"id": "pick-random-instance",
-					"objectClass": "System",
-					"sid": 993890460802593,
-					"parameters": {
-						"object": "KeySpawn_Object"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "spawn-another-object",
-					"objectClass": "KeySpawn_Object",
-					"sid": 133201152949404,
-					"parameters": {
-						"object": "Key",
-						"layer": "1",
-						"image-point": "0"
-					}
-				}
-			],
-			"sid": 499107640720476
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 367370512768111,
-					"parameters": {
-						"key": 82
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 780864001829130
-				}
-			],
-			"sid": 379724243775296
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 368713973843524,
-					"parameters": {
-						"key": 27
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "close",
-					"objectClass": "Browser",
-					"sid": 250848290317553
-				}
-			],
-			"sid": 205086260196331
 		}
 	],
 	"sid": 586479334890723
