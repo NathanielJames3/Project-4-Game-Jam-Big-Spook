@@ -3684,8 +3684,8 @@
 					},
 					"world": {
 						"x": 1708.050691255966,
-						"y": 509.4207063496483,
-						"width": 436.36367021264334,
+						"y": 9.293197175010619,
+						"width": 936.491179387281,
 						"height": 15.057432,
 						"originX": 0,
 						"originY": 0,
@@ -4404,8 +4404,8 @@
 					},
 					"world": {
 						"x": 1460.1200153496973,
-						"y": 63.24884030173757,
-						"width": 393.53850805460115,
+						"y": 74.85839561798007,
+						"width": 381.9289527383586,
 						"height": 15.0574317608701,
 						"originX": 0,
 						"originY": 0,
@@ -4444,7 +4444,7 @@
 					},
 					"world": {
 						"x": 1028.6522211527758,
-						"y": 74.85018648630265,
+						"y": 74.850186,
 						"width": 344.2683849289531,
 						"height": 15.0574317608701,
 						"originX": 0,
@@ -4472,12 +4472,172 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1642.4859373931658,
-						"y": 251.2952560021023,
+						"x": 1655.8063279457115,
+						"y": 371.2254910115067,
 						"width": 64.44353805145079,
 						"height": 64.44353805145079,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platforms",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 122,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1447.145952398999,
+						"y": 74.850186,
+						"width": 169.65133648303822,
+						"height": 15.057432,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platforms",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 123,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1535.823213767808,
+						"y": 155.74896327755516,
+						"width": 161.70592085756402,
+						"height": 15.057432,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platforms",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 124,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1550.901363844335,
+						"y": 156.31319568921327,
+						"width": 190.5536335932925,
+						"height": 15.0574317608701,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platforms",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 125,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1450.556084639892,
+						"y": 409.1813905945696,
+						"width": 244.16313116830864,
+						"height": 15.0574317608701,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
