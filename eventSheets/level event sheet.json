@@ -1,102 +1,6 @@
 {
-	"name": "Game Event sheet",
+	"name": "Level Event sheet",
 	"events": [
-		{
-			"eventType": "comment",
-			"text": "Default level camera setup."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 206508158373565
-				}
-			],
-			"actions": [
-				{
-					"id": "set-canvas-size",
-					"objectClass": "System",
-					"sid": 119140290339242,
-					"parameters": {
-						"width": "200",
-						"height": "100"
-					}
-				}
-			],
-			"sid": 916091477849943,
-			"children": [
-				{
-					"eventType": "comment",
-					"text": "NEEDS TO BE WORKED ON."
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "every-tick",
-							"objectClass": "System",
-							"sid": 204606362409196
-						}
-					],
-					"actions": [
-						{
-							"id": "set-x",
-							"objectClass": "ZoomIn",
-							"sid": 916390763488775,
-							"parameters": {
-								"x": "Player.X"
-							}
-						},
-						{
-							"id": "set-y",
-							"objectClass": "ZoomIn",
-							"sid": 699203710393377,
-							"parameters": {
-								"y": "Player.Y"
-							}
-						}
-					],
-					"sid": 396206904754843,
-					"disabled": true
-				}
-			]
-		},
-		{
-			"eventType": "comment",
-			"text": "Level restarts when enemy is on contact with player."
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Enemy",
-					"sid": 489984895309176,
-					"parameters": {
-						"object": "Player"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 897952320836732
-				}
-			],
-			"sid": 801841906169822
-		},
-		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "Title Screen",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [],
-			"sid": 563889013805205
-		},
 		{
 			"eventType": "group",
 			"disabled": false,
@@ -104,6 +8,136 @@
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
+				{
+					"eventType": "comment",
+					"text": "Default level camera setup."
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 333401340308328
+						}
+					],
+					"actions": [
+						{
+							"id": "set-canvas-size",
+							"objectClass": "System",
+							"sid": 687780619874701,
+							"parameters": {
+								"width": "200",
+								"height": "100"
+							}
+						}
+					],
+					"sid": 379283048966273,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "NEEDS TO BE WORKED ON."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 128911397201910
+								}
+							],
+							"actions": [
+								{
+									"id": "set-x",
+									"objectClass": "ZoomIn",
+									"sid": 569078748863476,
+									"parameters": {
+										"x": "Player.X"
+									}
+								},
+								{
+									"id": "set-y",
+									"objectClass": "ZoomIn",
+									"sid": 988665813926353,
+									"parameters": {
+										"y": "Player.Y"
+									}
+								}
+							],
+							"sid": 833015748395342,
+							"disabled": true
+						}
+					]
+				},
+				{
+					"eventType": "comment",
+					"text": "Level restarts when enemy is on contact with player."
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 911156602943333,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 990981030046668
+						}
+					],
+					"sid": 879109329730290
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 426867977912555,
+							"parameters": {
+								"object": "EnemyPlatform"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 779087004207213,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "EnemyPlatform",
+							"sid": 900805077460232,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "EnemyPlatform",
+							"sid": 122624910870546,
+							"disabled": true,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
+							}
+						}
+					],
+					"sid": 143096129377077
+				},
 				{
 					"eventType": "group",
 					"disabled": false,
@@ -460,15 +494,6 @@
 			"sid": 412683925447573
 		},
 		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "End Screen",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [],
-			"sid": 502287222060852
-		},
-		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -503,49 +528,6 @@
 			],
 			"sid": 841653825148617,
 			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Enemy",
-					"sid": 929965955031238,
-					"parameters": {
-						"object": "EnemyPlatform"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 421115786468942,
-					"parameters": {
-						"seconds": "2.0"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "EnemyPlatform",
-					"sid": 674503546151833,
-					"behaviorType": "Solid",
-					"parameters": {
-						"state": "enabled"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "EnemyPlatform",
-					"sid": 937216799287775,
-					"disabled": true,
-					"behaviorType": "Solid",
-					"parameters": {
-						"state": "disabled"
-					}
-				}
-			],
-			"sid": 791536223684725
 		}
 	],
 	"sid": 586479334890723

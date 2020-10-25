@@ -107,7 +107,9 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Game Event sheet"
+			"Level Event sheet",
+			"Title screen Event Sheet",
+			"End Screen Event Screen"
 		],
 		"subfolders": []
 	},
