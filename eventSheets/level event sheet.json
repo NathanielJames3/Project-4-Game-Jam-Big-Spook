@@ -161,6 +161,67 @@
 					"sid": 558376320304474
 				},
 				{
+					"eventType": "comment",
+					"text": "When player collides with EndScreen_Trigger, go to EndScreen."
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 298399708282214,
+							"parameters": {
+								"object": "EndScreen_Trigger"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 476383478741286,
+							"parameters": {
+								"layout": "End Screen"
+							}
+						}
+					],
+					"sid": 914988139926316
+				},
+				{
+					"eventType": "comment",
+					"text": "When player collides with Key, destroy Key and enable collions with EndScreen_Trigger."
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 198975084061285,
+							"parameters": {
+								"object": "Key"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Key",
+							"sid": 997499361910662
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "EndScreen_Trigger",
+							"sid": 902922868604998,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						}
+					],
+					"sid": 121590608844508
+				},
+				{
 					"eventType": "group",
 					"disabled": false,
 					"title": "Pathfinding",

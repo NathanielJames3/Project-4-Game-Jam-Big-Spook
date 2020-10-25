@@ -108,7 +108,8 @@
 			"KeySpawn_Object",
 			"Key",
 			"Keyboard",
-			"Browser"
+			"Browser",
+			"EndScreen_Trigger"
 		],
 		"subfolders": []
 	},
