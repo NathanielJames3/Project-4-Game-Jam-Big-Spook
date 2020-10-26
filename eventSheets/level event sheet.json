@@ -884,6 +884,64 @@
 				}
 			],
 			"sid": 419365748666734
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 985186935487419,
+					"parameters": {
+						"object": "Oneway_Trigger2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Oneway_Platforms2",
+					"sid": 412930377424300,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Oneway_Platforms2",
+					"sid": 135791878776000,
+					"behaviorType": "Solid",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 858465186581745,
+					"parameters": {
+						"seconds": "6.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Oneway_Platforms2",
+					"sid": 148862673864153,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Oneway_Platforms2",
+					"sid": 328418467468300,
+					"behaviorType": "Solid",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 430030584213065
 		}
 	],
 	"sid": 586479334890723

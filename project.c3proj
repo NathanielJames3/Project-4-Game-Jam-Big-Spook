@@ -120,7 +120,9 @@
 			"EndScreen_Trigger",
 			"Audio",
 			"Oneway_Platforms",
-			"Oneway_Trigger"
+			"Oneway_Trigger",
+			"Oneway_Platforms2",
+			"Oneway_Trigger2"
 		],
 		"subfolders": []
 	},
