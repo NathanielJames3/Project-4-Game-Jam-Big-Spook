@@ -1,5 +1,22 @@
 {
 	"name": "Title screen Event Sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-between-angles",
+					"objectClass": "Key",
+					"sid": 460388720692373,
+					"parameters": {
+						"first-angle": "0",
+						"second-angle": "45"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 941684782314155
+		}
+	],
 	"sid": 130791206507976
 }
