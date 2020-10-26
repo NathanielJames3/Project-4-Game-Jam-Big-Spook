@@ -182,6 +182,16 @@
 					"name": "Pickup_coin 40.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 882417904658348
+				},
+				{
+					"name": "heartbeat-speeding-up-02.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 202794292334114
+				},
+				{
+					"name": "heartbeat-speeding-up-01.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 925579669581793
 				}
 			],
 			"subfolders": []

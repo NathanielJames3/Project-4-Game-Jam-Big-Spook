@@ -54,12 +54,12 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 222159817653007,
+							"sid": 635065320839123,
 							"parameters": {
 								"audio-file": "Dark-Things-2_V001",
 								"loop": "looping",
-								"volume": "-5",
-								"tag-optional": "\"\""
+								"volume": "-10",
+								"tag-optional": "\"BackgroundMusic\""
 							}
 						}
 					],
