@@ -101,6 +101,14 @@
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
 		}
 	],
 	"uniqueId": "dfhyv3pltye",
@@ -123,7 +131,8 @@
 			"Oneway_Trigger",
 			"Oneway_Platforms2",
 			"Oneway_Trigger2",
-			"PointLight_Player2"
+			"PointLight_Player2",
+			"PointLight_Player3"
 		],
 		"subfolders": []
 	},

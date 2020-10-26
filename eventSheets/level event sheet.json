@@ -30,7 +30,7 @@
 			"children": [
 				{
 					"eventType": "comment",
-					"text": "Default level camera setup. Audio surce: https://soundimage.org/dark-ominous/"
+					"text": "Default level camera setup. Key lighting, Audio surce: https://soundimage.org/dark-ominous/"
 				},
 				{
 					"eventType": "block",
@@ -54,12 +54,21 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 237233020757972,
+							"sid": 258529461577501,
 							"parameters": {
 								"audio-file": "Dark-Things-2_V001",
-								"loop": "not-looping",
+								"loop": "looping",
 								"volume": "0",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "PointLight_Player3",
+							"sid": 427972416781056,
+							"parameters": {
+								"object": "Key",
+								"image-point-optional": "0"
 							}
 						}
 					],
@@ -201,7 +210,7 @@
 				},
 				{
 					"eventType": "comment",
-					"text": "When player collides with Key, destroy Key and enable collions with EndScreen_Trigger."
+					"text": "When player collides with Key, destroy Key/key light and enable collions with EndScreen_Trigger."
 				},
 				{
 					"eventType": "block",
@@ -228,6 +237,11 @@
 							"parameters": {
 								"collisions": "enabled"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "PointLight_Player3",
+							"sid": 354265605447559
 						}
 					],
 					"sid": 121590608844508

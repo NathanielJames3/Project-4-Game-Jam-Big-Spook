@@ -1,35 +1,29 @@
 {
-	"name": "Key",
+	"name": "PointLight_Player3",
 	"plugin-id": "Sprite",
-	"sid": 854557466100484,
+	"sid": 808040553610630,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Sin",
-			"name": "Sine",
-			"sid": 259623905323503
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 350,
+						"height": 350,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2781058,
+						"imageSpriteId": 4015887,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 499650814923853,
+				"sid": 186235205104381,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
