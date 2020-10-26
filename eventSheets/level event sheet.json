@@ -50,6 +50,17 @@
 								"width": "200",
 								"height": "100"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 203368416389818,
+							"parameters": {
+								"audio-file": "Dark-Things-2_V001",
+								"loop": "looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 379283048966273
@@ -815,6 +826,64 @@
 				}
 			],
 			"sid": 412683925447573
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 836786896013069,
+					"parameters": {
+						"object": "Oneway_Trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Oneway_Platforms",
+					"sid": 928962519538432,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Oneway_Platforms",
+					"sid": 263149253982096,
+					"behaviorType": "Solid",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 403217992532154,
+					"parameters": {
+						"seconds": "2.0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Oneway_Platforms",
+					"sid": 221239665908608,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Oneway_Platforms",
+					"sid": 621046539138120,
+					"behaviorType": "Solid",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 419365748666734
 		}
 	],
 	"sid": 586479334890723

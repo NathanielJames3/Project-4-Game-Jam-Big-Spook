@@ -39,6 +39,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -109,7 +117,10 @@
 			"Key",
 			"Keyboard",
 			"Browser",
-			"EndScreen_Trigger"
+			"EndScreen_Trigger",
+			"Audio",
+			"Oneway_Platforms",
+			"Oneway_Trigger"
 		],
 		"subfolders": []
 	},
@@ -145,7 +156,13 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "Dark-Things-2_V001.mp3",
+					"type": "audio/mpeg",
+					"sid": 718405389460265
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
