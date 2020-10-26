@@ -30,7 +30,7 @@
 			"children": [
 				{
 					"eventType": "comment",
-					"text": "Default level camera setup. Key lighting, Audio surce: https://soundimage.org/dark-ominous/"
+					"text": "Default level camera setup, Audio surce: https://soundimage.org/dark-ominous/"
 				},
 				{
 					"eventType": "block",
@@ -61,22 +61,13 @@
 								"volume": "0",
 								"tag-optional": "\"\""
 							}
-						},
-						{
-							"id": "set-position-to-another-object",
-							"objectClass": "PointLight_Player3",
-							"sid": 427972416781056,
-							"parameters": {
-								"object": "Key",
-								"image-point-optional": "0"
-							}
 						}
 					],
 					"sid": 379283048966273
 				},
 				{
 					"eventType": "comment",
-					"text": "Zooming in on player. Lighting for player."
+					"text": "Zooming in on player. Lighting for player, lighting for key."
 				},
 				{
 					"eventType": "block",
@@ -103,6 +94,15 @@
 							"sid": 915469642079344,
 							"parameters": {
 								"object": "Player",
+								"image-point-optional": "0"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "PointLight_Player3",
+							"sid": 150630023427004,
+							"parameters": {
+								"object": "Key",
 								"image-point-optional": "0"
 							}
 						}
@@ -831,6 +831,64 @@
 								}
 							],
 							"sid": 254505455446572
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 117396432498359,
+									"parameters": {
+										"object": "Oneway_Trigger3"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "Oneway_Platforms3",
+									"sid": 483270296744276,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Oneway_Platforms3",
+									"sid": 563169552522168,
+									"behaviorType": "Solid",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 182195369463891,
+									"parameters": {
+										"seconds": "4.0"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Oneway_Platforms3",
+									"sid": 784465943753728,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Oneway_Platforms3",
+									"sid": 845264889406138,
+									"behaviorType": "Solid",
+									"parameters": {
+										"state": "enabled"
+									}
+								}
+							],
+							"sid": 657062760359836
 						}
 					],
 					"sid": 477188269803167

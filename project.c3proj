@@ -132,7 +132,9 @@
 			"Oneway_Platforms2",
 			"Oneway_Trigger2",
 			"PointLight_Player2",
-			"PointLight_Player3"
+			"PointLight_Player3",
+			"Oneway_Platforms3",
+			"Oneway_Trigger3"
 		],
 		"subfolders": []
 	},
