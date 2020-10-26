@@ -30,7 +30,7 @@
 			"children": [
 				{
 					"eventType": "comment",
-					"text": "Default level camera setup."
+					"text": "Default level camera setup. Audio surce: https://soundimage.org/dark-ominous/"
 				},
 				{
 					"eventType": "block",
@@ -54,10 +54,10 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 203368416389818,
+							"sid": 237233020757972,
 							"parameters": {
 								"audio-file": "Dark-Things-2_V001",
-								"loop": "looping",
+								"loop": "not-looping",
 								"volume": "0",
 								"tag-optional": "\"\""
 							}
@@ -690,6 +690,140 @@
 				{
 					"eventType": "group",
 					"disabled": false,
+					"title": "One-way Passages",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "comment",
+							"text": "Trigger for one-way passage."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 553128461720002,
+									"parameters": {
+										"object": "Oneway_Trigger"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "Oneway_Platforms",
+									"sid": 897795345284237,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Oneway_Platforms",
+									"sid": 208244015629332,
+									"behaviorType": "Solid",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 257877736625042,
+									"parameters": {
+										"seconds": "2.0"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Oneway_Platforms",
+									"sid": 167304730774855,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Oneway_Platforms",
+									"sid": 979668280124648,
+									"behaviorType": "Solid",
+									"parameters": {
+										"state": "enabled"
+									}
+								}
+							],
+							"sid": 899098247696872
+						},
+						{
+							"eventType": "comment",
+							"text": "Trigger for one-way passage2."
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Player",
+									"sid": 420619060895582,
+									"parameters": {
+										"object": "Oneway_Trigger2"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "Oneway_Platforms2",
+									"sid": 270540990055476,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Oneway_Platforms2",
+									"sid": 117514995786226,
+									"behaviorType": "Solid",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 383174783282398,
+									"parameters": {
+										"seconds": "6.0"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "Oneway_Platforms2",
+									"sid": 663733090748301,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Oneway_Platforms2",
+									"sid": 973859936809526,
+									"behaviorType": "Solid",
+									"parameters": {
+										"state": "enabled"
+									}
+								}
+							],
+							"sid": 254505455446572
+						}
+					],
+					"sid": 477188269803167
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
 					"title": "Programming Shortcut Keys",
 					"description": "",
 					"isActiveOnStart": true,
@@ -826,122 +960,6 @@
 				}
 			],
 			"sid": 412683925447573
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 836786896013069,
-					"parameters": {
-						"object": "Oneway_Trigger"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "Oneway_Platforms",
-					"sid": 928962519538432,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Oneway_Platforms",
-					"sid": 263149253982096,
-					"behaviorType": "Solid",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 403217992532154,
-					"parameters": {
-						"seconds": "2.0"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Oneway_Platforms",
-					"sid": 221239665908608,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Oneway_Platforms",
-					"sid": 621046539138120,
-					"behaviorType": "Solid",
-					"parameters": {
-						"state": "enabled"
-					}
-				}
-			],
-			"sid": 419365748666734
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 985186935487419,
-					"parameters": {
-						"object": "Oneway_Trigger2"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "Oneway_Platforms2",
-					"sid": 412930377424300,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Oneway_Platforms2",
-					"sid": 135791878776000,
-					"behaviorType": "Solid",
-					"parameters": {
-						"state": "disabled"
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 858465186581745,
-					"parameters": {
-						"seconds": "6.0"
-					}
-				},
-				{
-					"id": "set-visible",
-					"objectClass": "Oneway_Platforms2",
-					"sid": 148862673864153,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "Oneway_Platforms2",
-					"sid": 328418467468300,
-					"behaviorType": "Solid",
-					"parameters": {
-						"state": "enabled"
-					}
-				}
-			],
-			"sid": 430030584213065
 		}
 	],
 	"sid": 586479334890723
