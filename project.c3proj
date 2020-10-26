@@ -117,6 +117,22 @@
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "burn",
+			"name": "Burn",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "pulse",
+			"name": "Pulse",
+			"author": "Danguafer/Silexars",
+			"version": "r218",
+			"bundled": false
 		}
 	],
 	"uniqueId": "dfhyv3pltye",
@@ -145,9 +161,25 @@
 			"Oneway_Trigger3",
 			"Wall",
 			"Ground",
-			"Particles",
+			"Ke_Particles",
 			"Side_Enemy",
-			"SideEnemy_Trigger"
+			"SideEnemy_Trigger",
+			"EnemyAlert_Trigger",
+			"EnemyAlert_Trigger2",
+			"EnemyAlert_Trigger3",
+			"EnemyAlert_Trigger4",
+			"EnemyAlert_Trigger5",
+			"EnemyAlert_Trigger6",
+			"EnemyAlert_Trigger7",
+			"EnemyAlert_Trigger8",
+			"EnemyAlert",
+			"EnemyAlert2",
+			"EnemyAlert3",
+			"EnemyAlert4",
+			"EnemyAlert5",
+			"EnemyAlert6",
+			"EnemyAlert7",
+			"EnemyAlert8"
 		],
 		"subfolders": []
 	},

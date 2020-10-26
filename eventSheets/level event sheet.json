@@ -108,11 +108,155 @@
 						},
 						{
 							"id": "set-position-to-another-object",
-							"objectClass": "Particles",
+							"objectClass": "Ke_Particles",
 							"sid": 824565549677688,
 							"parameters": {
 								"object": "Key",
 								"image-point-optional": "0"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert_Trigger",
+							"sid": 266322071246329,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "1"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert_Trigger2",
+							"sid": 998349749183802,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "2"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert_Trigger3",
+							"sid": 445880423464671,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "3"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert_Trigger4",
+							"sid": 895851969347978,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "4"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert_Trigger5",
+							"sid": 718765875612363,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "5"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert_Trigger6",
+							"sid": 543893271154193,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "6"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert_Trigger7",
+							"sid": 737842793802004,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "7"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert_Trigger8",
+							"sid": 696354731649489,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "8"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert",
+							"sid": 286943122626450,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "9"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert2",
+							"sid": 776066037788547,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "10"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert3",
+							"sid": 391368067334790,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "11"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert4",
+							"sid": 372838349976732,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "12"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert5",
+							"sid": 760306457088639,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "13"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert6",
+							"sid": 529837619458441,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "14"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert7",
+							"sid": 380449930343646,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "15"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "EnemyAlert8",
+							"sid": 476912405845046,
+							"parameters": {
+								"object": "ZoomIn",
+								"image-point-optional": "16"
 							}
 						}
 					],
@@ -268,7 +412,7 @@
 							"objectClass": "System",
 							"sid": 677924443286717,
 							"parameters": {
-								"object-to-create": "Particles",
+								"object-to-create": "Ke_Particles",
 								"layer": "1",
 								"x": "Key.X",
 								"y": "Key.Y"
@@ -602,7 +746,201 @@
 									}
 								}
 							],
-							"sid": 822559518479360
+							"sid": 822559518479360,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Enemy",
+											"sid": 912247461898353,
+											"parameters": {
+												"object": "EnemyAlert_Trigger"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "EnemyAlert",
+											"sid": 138248433503645,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 720643262627486
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Enemy",
+											"sid": 185996040437049,
+											"parameters": {
+												"object": "EnemyAlert_Trigger2"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "EnemyAlert2",
+											"sid": 622013210085072,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 479486313243840
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Enemy",
+											"sid": 533002141025516,
+											"parameters": {
+												"object": "EnemyAlert_Trigger3"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "EnemyAlert3",
+											"sid": 297247769508540,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 909850565843348
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Enemy",
+											"sid": 741209146272979,
+											"parameters": {
+												"object": "EnemyAlert_Trigger4"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "EnemyAlert4",
+											"sid": 997278611399174,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 509071378593453
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Enemy",
+											"sid": 427271390754079,
+											"parameters": {
+												"object": "EnemyAlert_Trigger5"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "EnemyAlert5",
+											"sid": 138997660295153,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 184842681666452
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Enemy",
+											"sid": 823897431096937,
+											"parameters": {
+												"object": "EnemyAlert_Trigger6"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "EnemyAlert6",
+											"sid": 623062061045031,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 952806668885045
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Enemy",
+											"sid": 715160336551412,
+											"parameters": {
+												"object": "EnemyAlert_Trigger7"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "EnemyAlert7",
+											"sid": 714979394944864,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 980218664508016
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "is-overlapping-another-object",
+											"objectClass": "Enemy",
+											"sid": 408937555876881,
+											"parameters": {
+												"object": "EnemyAlert_Trigger8"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-visible",
+											"objectClass": "EnemyAlert8",
+											"sid": 563931122963376,
+											"parameters": {
+												"visibility": "visible"
+											}
+										}
+									],
+									"sid": 720126222302011
+								}
+							]
 						},
 						{
 							"eventType": "block",
@@ -621,6 +959,70 @@
 									"parameters": {
 										"variable": "Target",
 										"value": "1"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "EnemyAlert",
+									"sid": 512616114380493,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "EnemyAlert2",
+									"sid": 706838210165070,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "EnemyAlert3",
+									"sid": 398655836617358,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "EnemyAlert4",
+									"sid": 234598677943718,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "EnemyAlert5",
+									"sid": 928188712288738,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "EnemyAlert6",
+									"sid": 645699679702477,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "EnemyAlert7",
+									"sid": 970164474491761,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "EnemyAlert8",
+									"sid": 778942328252797,
+									"parameters": {
+										"visibility": "invisible"
 									}
 								}
 							],
