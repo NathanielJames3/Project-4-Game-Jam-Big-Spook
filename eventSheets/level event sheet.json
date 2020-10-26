@@ -54,11 +54,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 258529461577501,
+							"sid": 222159817653007,
 							"parameters": {
 								"audio-file": "Dark-Things-2_V001",
 								"loop": "looping",
-								"volume": "0",
+								"volume": "-5",
 								"tag-optional": "\"\""
 							}
 						}
@@ -242,6 +242,17 @@
 							"id": "destroy",
 							"objectClass": "PointLight_Player3",
 							"sid": 354265605447559
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 293855966044960,
+							"parameters": {
+								"audio-file": "Pickup_coin 40",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 121590608844508

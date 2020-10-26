@@ -168,7 +168,13 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Pickup_coin 40.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 882417904658348
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
