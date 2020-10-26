@@ -105,6 +105,15 @@
 								"object": "Key",
 								"image-point-optional": "0"
 							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Particles",
+							"sid": 824565549677688,
+							"parameters": {
+								"object": "Key",
+								"image-point-optional": "0"
+							}
 						}
 					],
 					"sid": 588752894113649
@@ -252,6 +261,17 @@
 								"loop": "not-looping",
 								"volume": "0",
 								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 677924443286717,
+							"parameters": {
+								"object-to-create": "Particles",
+								"layer": "1",
+								"x": "Key.X",
+								"y": "Key.Y"
 							}
 						}
 					],

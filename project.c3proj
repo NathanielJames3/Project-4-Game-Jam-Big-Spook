@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -136,7 +144,8 @@
 			"Oneway_Platforms3",
 			"Oneway_Trigger3",
 			"TiledBackground",
-			"TiledBackground2"
+			"TiledBackground2",
+			"Particles"
 		],
 		"subfolders": []
 	},
