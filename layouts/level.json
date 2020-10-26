@@ -34,7 +34,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -67,7 +67,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -100,7 +100,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -133,7 +133,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -166,7 +166,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -199,7 +199,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -232,7 +232,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -265,7 +265,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -298,7 +298,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -331,7 +331,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -364,7 +364,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -397,7 +397,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -430,7 +430,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -463,7 +463,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -496,7 +496,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground2",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3293,7 +3293,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3373,7 +3373,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3413,7 +3413,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3453,7 +3453,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3493,7 +3493,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3533,7 +3533,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3573,7 +3573,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3613,7 +3613,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3653,7 +3653,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3693,7 +3693,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3733,7 +3733,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3773,7 +3773,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3813,7 +3813,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3853,7 +3853,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3893,7 +3893,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3933,7 +3933,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -3973,7 +3973,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4013,7 +4013,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4053,7 +4053,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4093,7 +4093,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4133,7 +4133,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4173,7 +4173,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4213,7 +4213,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4253,7 +4253,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4293,7 +4293,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4333,7 +4333,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4373,7 +4373,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4413,7 +4413,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4453,7 +4453,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4493,7 +4493,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4533,7 +4533,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4573,7 +4573,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4613,7 +4613,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4653,7 +4653,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4693,7 +4693,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4733,7 +4733,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4773,7 +4773,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4813,7 +4813,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4853,7 +4853,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4893,7 +4893,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4933,7 +4933,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -4973,7 +4973,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5013,7 +5013,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5053,7 +5053,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5093,7 +5093,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5133,7 +5133,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5173,7 +5173,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5213,7 +5213,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5253,7 +5253,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5293,7 +5293,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5333,7 +5333,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5373,7 +5373,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5453,7 +5453,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5533,7 +5533,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5573,7 +5573,7 @@
 					}
 				},
 				{
-					"type": "TiledBackground",
+					"type": "Wall",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -5609,6 +5609,79 @@
 							1
 						],
 						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SideEnemy_Trigger",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 105,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 690,
+						"y": 899,
+						"width": 8.227596375960502,
+						"height": 96.40967347672881,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Side_Enemy",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 104,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "forwards-backwards",
+								"wave": "sine",
+								"period": 50,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 3000,
+								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 898,
+						"y": 905,
+						"width": 39.25557285278103,
+						"height": 39.25557285278103,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.141592653589793,
 						"zElevation": 0
 					}
 				}

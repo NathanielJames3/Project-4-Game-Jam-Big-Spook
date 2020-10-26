@@ -1063,6 +1063,52 @@
 				}
 			],
 			"sid": 412683925447573
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 668565103547648,
+					"parameters": {
+						"object": "SideEnemy_Trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-active",
+					"objectClass": "Side_Enemy",
+					"sid": 323274932489828,
+					"behaviorType": "Sine",
+					"parameters": {
+						"state": "active"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Side_Enemy",
+					"sid": 251788350242942,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 746123162575184,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Side_Enemy",
+					"sid": 925188389302126
+				}
+			],
+			"sid": 823249784301864
 		}
 	],
 	"sid": 586479334890723

@@ -143,9 +143,11 @@
 			"PointLight_Player3",
 			"Oneway_Platforms3",
 			"Oneway_Trigger3",
-			"TiledBackground",
-			"TiledBackground2",
-			"Particles"
+			"Wall",
+			"Ground",
+			"Particles",
+			"Side_Enemy",
+			"SideEnemy_Trigger"
 		],
 		"subfolders": []
 	},
