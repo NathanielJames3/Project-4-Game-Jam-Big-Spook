@@ -198,7 +198,9 @@
 			"invisibleWall",
 			"EndScreen_Trigger2",
 			"FindTheKey",
-			"Beware"
+			"Beware",
+			"ArrowKeys",
+			"Arrow_Trigger"
 		],
 		"subfolders": []
 	},

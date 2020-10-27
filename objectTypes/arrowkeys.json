@@ -1,0 +1,59 @@
+{
+	"name": "ArrowKeys",
+	"plugin-id": "Sprite",
+	"sid": 422587257376513,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 893403667116491
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2981,
+						"height": 286,
+						"originX": 0.4969808788996981,
+						"originY": 0.5629370629370629,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Arrow Keys\\Arrows1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1848468,
+						"collisionPoly": {
+							"points": [
+								0.02717208990271721,
+								0.36013986013986016,
+								0.9708151626970816,
+								0.3146853146853147,
+								0.9647769204964777,
+								0.5629370629370629,
+								0.9449849043944984,
+								0.5384615384615384,
+								0.04360952700436095,
+								0.5909090909090909,
+								0.0013418316001341832,
+								0.5629370629370629
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 670544396434562,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

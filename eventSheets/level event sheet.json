@@ -1783,6 +1783,27 @@
 				}
 			],
 			"sid": 961697595170263
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 992311260887691,
+					"parameters": {
+						"object": "Arrow_Trigger"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "ArrowKeys",
+					"sid": 733268807725634
+				}
+			],
+			"sid": 946129360316118
 		}
 	],
 	"sid": 586479334890723
