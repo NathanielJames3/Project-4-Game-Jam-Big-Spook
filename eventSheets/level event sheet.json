@@ -22,6 +22,16 @@
 			"sid": 371300629457279
 		},
 		{
+			"eventType": "variable",
+			"name": "MusicTrack",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 800464052108219
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Main Game",
@@ -54,12 +64,23 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 635065320839123,
+							"sid": 960189510409651,
 							"parameters": {
 								"audio-file": "Dark-Things-2_V001",
 								"loop": "looping",
 								"volume": "-10",
-								"tag-optional": "\"BackgroundMusic\""
+								"tag-optional": "\"MusicTrack\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 833817494647382,
+							"parameters": {
+								"audio-file": "heartbeat-speeding-up-01",
+								"loop": "looping",
+								"volume": "-100",
+								"tag-optional": "\"Heartbeat\""
 							}
 						}
 					],
@@ -729,23 +750,13 @@
 								{
 									"id": "is-overlapping-another-object",
 									"objectClass": "Enemy",
-									"sid": 516497527173307,
+									"sid": 779906081483572,
 									"parameters": {
 										"object": "ZoomIn"
 									}
 								}
 							],
-							"actions": [
-								{
-									"id": "set-eventvar-value",
-									"objectClass": "System",
-									"sid": 867185530461656,
-									"parameters": {
-										"variable": "Target",
-										"value": "ZoomIn.TargetZoom"
-									}
-								}
-							],
+							"actions": [],
 							"sid": 822559518479360,
 							"children": [
 								{
@@ -939,6 +950,64 @@
 										}
 									],
 									"sid": 720126222302011
+								},
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 484678523566110,
+											"parameters": {
+												"variable": "MusicTrack",
+												"comparison": 0,
+												"value": "0"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 332059665154473,
+											"parameters": {
+												"variable": "Target",
+												"value": "ZoomIn.TargetZoom"
+											}
+										},
+										{
+											"id": "fade-volume",
+											"objectClass": "Audio",
+											"sid": 287993970739160,
+											"parameters": {
+												"tag": "\"MusicTrack\"",
+												"db": "-100",
+												"duration": "1",
+												"ending": "keep-playing"
+											}
+										},
+										{
+											"id": "fade-volume",
+											"objectClass": "Audio",
+											"sid": 921614641037610,
+											"parameters": {
+												"tag": "\"Heartbeat\"",
+												"db": "-1",
+												"duration": "0",
+												"ending": "keep-playing"
+											}
+										},
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 399951892156529,
+											"parameters": {
+												"variable": "MusicTrack",
+												"value": "1"
+											}
+										}
+									],
+									"sid": 193871300594788
 								}
 							]
 						},
@@ -1026,7 +1095,70 @@
 									}
 								}
 							],
-							"sid": 351363892551359
+							"sid": 351363892551359,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-eventvar",
+											"objectClass": "System",
+											"sid": 916346195548069,
+											"parameters": {
+												"variable": "MusicTrack",
+												"comparison": 0,
+												"value": "1"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "fade-volume",
+											"objectClass": "Audio",
+											"sid": 356386925507701,
+											"parameters": {
+												"tag": "\"Heartbeat\"",
+												"db": "-100",
+												"duration": "1",
+												"ending": "keep-playing"
+											}
+										},
+										{
+											"id": "set-eventvar-value",
+											"objectClass": "System",
+											"sid": 443191296456669,
+											"parameters": {
+												"variable": "MusicTrack",
+												"value": "0"
+											}
+										},
+										{
+											"id": "play",
+											"objectClass": "Audio",
+											"sid": 524526817916634,
+											"disabled": true,
+											"parameters": {
+												"audio-file": "Dark-Things-2_V001",
+												"loop": "looping",
+												"volume": "-10",
+												"tag-optional": "\"MusicTrack\""
+											}
+										},
+										{
+											"id": "fade-volume",
+											"objectClass": "Audio",
+											"sid": 984651565056971,
+											"parameters": {
+												"tag": "\"MusicTrack\"",
+												"db": "-10",
+												"duration": "1",
+												"ending": "keep-playing"
+											}
+										}
+									],
+									"sid": 414760497128043
+								}
+							]
 						}
 					],
 					"sid": 203934600972691
