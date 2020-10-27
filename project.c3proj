@@ -219,7 +219,13 @@
 			"Sprite3",
 			"Sprite4",
 			"Sprite5",
-			"PressAnyButton2"
+			"PressAnyButton2",
+			"BloodPool",
+			"PressAnyButton3",
+			"Ground2",
+			"characterTest2",
+			"Grass",
+			"Sun"
 		],
 		"subfolders": []
 	},

@@ -1,0 +1,20 @@
+{
+	"name": "Ground2",
+	"plugin-id": "TiledBg",
+	"sid": 294180387783898,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 43,
+		"height": 43,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 1 (Game Jam)\\New_Piskel_3.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 639984,
+		"useCollisionPoly": true
+	}
+}

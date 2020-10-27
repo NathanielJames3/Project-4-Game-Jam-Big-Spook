@@ -1,0 +1,68 @@
+{
+	"name": "characterTest2",
+	"plugin-id": "Sprite",
+	"sid": 653475631311389,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 873268044688845
+		},
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 152383854470051
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 233,
+						"height": 422,
+						"originX": 0.28008736064199913,
+						"originY": 0.5166786130754335,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Character Sprite\\Character5.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5436916,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.166459833320852,
+								0.2820237702211951,
+								0,
+								0.8184092236584809,
+								0.08686465610390166,
+								0.5860400741549636,
+								0.5180051993623828,
+								0.66930568606039,
+								1,
+								0.2820237702211951,
+								1,
+								0,
+								1,
+								0,
+								0.5180051993623828
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 362719152217992,
+				"name": "Walking",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

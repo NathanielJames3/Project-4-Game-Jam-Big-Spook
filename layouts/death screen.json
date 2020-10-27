@@ -18,9 +18,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 428,
+						"x": 426.63397308926983,
 						"y": 240.5,
-						"width": 852,
+						"width": 854.7320538214603,
 						"height": 481,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -74,10 +74,25 @@
 					},
 					"uid": 202,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "forwards-backwards",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
-						"x": 362,
-						"y": 203,
+						"x": 402,
+						"y": 384,
 						"width": 481,
 						"height": 455,
 						"originX": 0.5,
@@ -88,7 +103,77 @@
 							1,
 							1
 						],
-						"angle": 5.9231527822443635,
+						"angle": 0.4363323129985824,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "BloodPool",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 208,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Pulse": {
+							"parameters": {
+								"intensity": 1,
+								"lighting": 0.1,
+								"speed": 10,
+								"frequency": 30,
+								"center-x": 0.5,
+								"center-y": 0.5
+							}
+						}
+					},
+					"world": {
+						"x": 425.5,
+						"y": 544,
+						"width": 939,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PressAnyButton3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 209,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 431,
+						"y": 130,
+						"width": 381.9016887893723,
+						"height": 28.138540505757515,
+						"originX": 0.49625689519306543,
+						"originY": 0.3074866310160428,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}
@@ -134,8 +219,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 452,
-						"y": 156,
+						"x": 481,
+						"y": 167,
 						"width": 943,
 						"height": 462.99999999999994,
 						"originX": 0.5,
