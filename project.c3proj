@@ -119,6 +119,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "burn",
 			"name": "Burn",
@@ -185,7 +193,10 @@
 			"Blood",
 			"Title",
 			"PressAnyButton",
-			"Wall2"
+			"Wall2",
+			"characterTest",
+			"invisibleWall",
+			"EndScreen_Trigger2"
 		],
 		"subfolders": []
 	},
@@ -239,6 +250,11 @@
 					"name": "enemy.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 691946800157556
+				},
+				{
+					"name": "closer.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 842453279667272
 				}
 			],
 			"subfolders": []

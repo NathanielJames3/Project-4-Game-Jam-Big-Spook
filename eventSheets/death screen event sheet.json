@@ -36,6 +36,14 @@
 			],
 			"actions": [
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 365560236452478,
+					"parameters": {
+						"seconds": "3.0"
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 621650991450661,

@@ -398,7 +398,7 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Player",
-							"sid": 298399708282214,
+							"sid": 355009515123322,
 							"parameters": {
 								"object": "EndScreen_Trigger"
 							}
@@ -1650,6 +1650,22 @@
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "SideEnemy_Trigger",
+					"sid": 265923553164944
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 362374673181901,
+					"parameters": {
+						"audio-file": "closer",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "set-active",
 					"objectClass": "Side_Enemy",
 					"sid": 323274932489828,
@@ -1696,6 +1712,22 @@
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "SideEnemy_Trigger2",
+					"sid": 614284266232887
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 672032585817290,
+					"parameters": {
+						"audio-file": "closer",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "set-active",
 					"objectClass": "Side_Enemy2",
 					"sid": 208890537450927,
@@ -1727,6 +1759,30 @@
 				}
 			],
 			"sid": 934328028911134
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-clockwise-from",
+					"objectClass": "Enemy",
+					"sid": 987036134823710,
+					"parameters": {
+						"angle": "180"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Enemy",
+					"sid": 272133256145036,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 961697595170263
 		}
 	],
 	"sid": 586479334890723

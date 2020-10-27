@@ -1,14 +1,14 @@
 {
-	"name": "Side_Enemy2",
+	"name": "invisibleWall",
 	"plugin-id": "Sprite",
-	"sid": 358742157716450,
+	"sid": 196344808578845,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Sin",
-			"name": "Sine",
-			"sid": 364812497147755
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 109621048534952
 		}
 	],
 	"effectTypes": [],
@@ -17,19 +17,19 @@
 			{
 				"frames": [
 					{
-						"width": 527,
-						"height": 569,
-						"originX": 0.5151802656546489,
-						"originY": 0.4753954305799648,
-						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Enemies\\Side Enemies.png",
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4092370,
+						"imageSpriteId": 4262041,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 115195435605130,
+				"sid": 313555369338938,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

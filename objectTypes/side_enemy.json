@@ -17,26 +17,14 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
+						"width": 527,
+						"height": 569,
+						"originX": 0.5151802656546489,
+						"originY": 0.4753954305799648,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Enemies\\Side Enemies.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9387627,
-						"collisionPoly": {
-							"points": [
-								1,
-								1,
-								0,
-								1,
-								0,
-								0,
-								1,
-								0
-							]
-						},
+						"imageSpriteId": 9817426,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
