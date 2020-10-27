@@ -38,9 +38,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 216496196336822,
+					"sid": 311189145179983,
 					"parameters": {
-						"seconds": "2.0"
+						"seconds": "1.0"
 					}
 				},
 				{

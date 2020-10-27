@@ -27,14 +27,34 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
+						"width": 233,
+						"height": 254,
+						"originX": 0.49356223175965663,
+						"originY": 0.4921259842519685,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Character Sprite\\Character5.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 711843,
+						"imageSpriteId": 5561205,
+						"collisionPoly": {
+							"points": [
+								0.1888412017167382,
+								0.16929133858267717,
+								0.5085836909871244,
+								0.003937007874015748,
+								0.8111587982832618,
+								0.18110236220472442,
+								0.8111587982832618,
+								0.8385826771653543,
+								0.8111587982832618,
+								1,
+								0.5085836909871244,
+								1,
+								0.18454935622317603,
+								1,
+								0.0944206008583691,
+								0.8385826771653543
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
