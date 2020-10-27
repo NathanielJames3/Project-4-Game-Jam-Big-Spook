@@ -819,7 +819,7 @@
 								"cell-size": 30,
 								"cell-border": -1,
 								"obstacles": "solids",
-								"max-speed": 130,
+								"max-speed": 110,
 								"acceleration": 1000,
 								"deceleration": 2000,
 								"rotate-speed": 300,
@@ -5936,7 +5936,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.8,
+								"lighting": 1,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -5980,7 +5980,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.8,
+								"lighting": 1,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6024,7 +6024,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.8,
+								"lighting": 1,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6068,7 +6068,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.8,
+								"lighting": 1,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6112,7 +6112,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.8,
+								"lighting": 1,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6156,7 +6156,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.8,
+								"lighting": 1,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6200,7 +6200,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.8,
+								"lighting": 1,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6244,7 +6244,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.8,
+								"lighting": 1,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6444,8 +6444,8 @@
 						}
 					},
 					"world": {
-						"x": 1652.7929773143367,
-						"y": 590.0011669988371,
+						"x": 1650.9726091780246,
+						"y": 591.4574615078867,
 						"width": 22.37250772597476,
 						"height": 33.50624396519225,
 						"originX": 0.5,
@@ -6488,7 +6488,7 @@
 						}
 					},
 					"world": {
-						"x": 38.28641296375065,
+						"x": 45.94536229759547,
 						"y": 46.43833678608666,
 						"width": 22.37250772597476,
 						"height": 33.50624396519225,
@@ -6532,8 +6532,8 @@
 						}
 					},
 					"world": {
-						"x": 397.6114192827699,
-						"y": 176.32167433209943,
+						"x": 404.9535707658951,
+						"y": 185.66623076516794,
 						"width": 22.37250772597476,
 						"height": 33.50624396519225,
 						"originX": 0.5,
@@ -6576,8 +6576,8 @@
 						}
 					},
 					"world": {
-						"x": 521.2864129637506,
-						"y": 643.4383367860867,
+						"x": 546.2497280063766,
+						"y": 646.0080898051805,
 						"width": 22.37250772597476,
 						"height": 33.50624396519225,
 						"originX": 0.5,
