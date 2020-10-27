@@ -44,8 +44,8 @@
 						}
 					},
 					"world": {
-						"x": 148,
-						"y": 235,
+						"x": 87.090909090909,
+						"y": 280.45454545454555,
 						"width": 103.0196457189754,
 						"height": 135.02279009913048,
 						"originX": 0.3254437869822485,
@@ -84,12 +84,41 @@
 						}
 					},
 					"world": {
-						"x": 20,
-						"y": 348,
-						"width": 756.5178135182638,
-						"height": 15.0574317608701,
+						"x": 0.9090909090909776,
+						"y": 346.1818181818182,
+						"width": 852.8814498819002,
+						"height": 131.42106812450658,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							0.34509803921568627,
+							0.4549019607843137,
+							0.5764705882352941,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 198,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 96.40909090909248,
+						"y": 97.65909090909238,
+						"width": 190.90909090909085,
+						"height": 189.99999999999991,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -117,6 +146,97 @@
 				1
 			],
 			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "Layer 1",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "TiledBackground",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 197,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 190.52799999996842,
+						"y": 1.7954545454557547,
+						"width": 663.6013636363464,
+						"height": 343.63636363636397,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 199,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 461.3636363636383,
+						"y": 172.20454545454706,
+						"width": 532,
+						"height": 329,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 658065231655359,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,

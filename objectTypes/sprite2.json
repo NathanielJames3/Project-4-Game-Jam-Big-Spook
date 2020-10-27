@@ -1,0 +1,53 @@
+{
+	"name": "Sprite2",
+	"plugin-id": "Sprite",
+	"sid": 526452917539705,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 532,
+						"height": 329,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\Brandon Padron\\Downloads\\escape the maze.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2561228,
+						"collisionPoly": {
+							"points": [
+								0.13345864661654136,
+								0.21580547112462006,
+								0.5,
+								0.20972644376899696,
+								0.8289473684210527,
+								0.2735562310030395,
+								0.5620300751879699,
+								0.2917933130699088,
+								0.5,
+								0.2917933130699088,
+								0.43609022556390975,
+								0.2917933130699088
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 952646635819291,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

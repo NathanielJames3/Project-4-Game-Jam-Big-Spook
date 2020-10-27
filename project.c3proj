@@ -55,6 +55,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -200,7 +208,17 @@
 			"FindTheKey",
 			"Beware",
 			"ArrowKeys",
-			"Arrow_Trigger"
+			"Arrow_Trigger",
+			"TitleScreenSprite",
+			"EndScreenSprite",
+			"TiledBackground",
+			"Sprite",
+			"Text",
+			"Text2",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5"
 		],
 		"subfolders": []
 	},

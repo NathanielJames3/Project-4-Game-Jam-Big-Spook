@@ -84,6 +84,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "TitleScreenSprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 196,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 825,
+						"y": 259,
+						"width": 1086,
+						"height": 1250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 220203005772370,
@@ -170,8 +199,8 @@
 						}
 					},
 					"world": {
-						"x": 421,
-						"y": 138,
+						"x": 815,
+						"y": 104,
 						"width": 692.784960407101,
 						"height": 84.6636022573724,
 						"originX": 0.49178712220762155,
@@ -199,8 +228,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 421,
-						"y": 439,
+						"x": 787,
+						"y": 793,
 						"width": 513.2779758305486,
 						"height": 37.81835361714442,
 						"originX": 0.49625689519306543,
