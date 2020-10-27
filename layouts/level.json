@@ -6817,7 +6817,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 1569.8873576837284,
-						"y": 260.5194734973097,
+						"y": 279.5194734973097,
 						"width": 297.73626508526144,
 						"height": 138.2229148694143,
 						"originX": 0.5,
@@ -7161,7 +7161,7 @@
 				0,
 				1
 			],
-			"isTransparent": true,
+			"isTransparent": false,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,

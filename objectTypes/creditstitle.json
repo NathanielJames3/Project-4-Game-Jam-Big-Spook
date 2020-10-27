@@ -1,0 +1,53 @@
+{
+	"name": "CreditsTitle",
+	"plugin-id": "Sprite",
+	"sid": 257428289647482,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1902,
+						"height": 666,
+						"originX": 0.4981598317560463,
+						"originY": 0.506006006006006,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Credits\\Music Website1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6478709,
+						"collisionPoly": {
+							"points": [
+								0.01892744479495268,
+								0.013513513513513535,
+								0.4981598317560463,
+								0.0015015015015015015,
+								0.9600420609884333,
+								0.06156156156156156,
+								0.9763406940063092,
+								0.9954954954954955,
+								0.4981598317560463,
+								0.9204204204204204,
+								0.048370136698212406,
+								0.9129129129129129
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 148019719455184,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -322,7 +322,7 @@
 				{
 					"type": "Credits",
 					"properties": {
-						"text": "Text",
+						"text": "Music by Eric Matyas\n\nwww.soundimage.org",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -330,13 +330,13 @@
 						"bold": false,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							0.9137254901960784,
+							1,
+							0.25882352941176473,
 							1
 						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
 						"wrapping": "word",
 						"initially-visible": true,
 						"origin": "top-left"
@@ -345,10 +345,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 383,
-						"y": -62,
+						"x": 211,
+						"y": -95,
 						"width": 200,
-						"height": 30,
+						"height": 76,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -438,6 +438,93 @@
 						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "CreditsTitle",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 218,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 437.56848934736104,
+						"y": 308.09839733415214,
+						"width": 145.83154944171926,
+						"height": 51.06404412628027,
+						"originX": 0.4981598317560463,
+						"originY": 0.506006006006006,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PressAnyButton4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 217,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 435.0019512023925,
+						"y": 136.9224772751265,
+						"width": 219.43311907852924,
+						"height": 16.167846047157187,
+						"originX": 0.49625689519306543,
+						"originY": 0.3074866310160428,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Website",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 219,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 438.2604284109751,
+						"y": 259.09361503776734,
+						"width": 55.75470714812376,
+						"height": 14.544706212554026,
+						"originX": 0.49130434782608695,
+						"originY": 0.48333333333333334,
 						"color": [
 							1,
 							1,

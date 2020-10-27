@@ -1,0 +1,57 @@
+{
+	"name": "Website",
+	"plugin-id": "Sprite",
+	"sid": 123104169855064,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 690,
+						"height": 180,
+						"originX": 0.49130434782608695,
+						"originY": 0.48333333333333334,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Credits\\Music Website.2png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9326750,
+						"collisionPoly": {
+							"points": [
+								0.05362318840579712,
+								0.022222222222222223,
+								0.49130434782608695,
+								0.24444444444444444,
+								0.8710144927536232,
+								0.2388888888888889,
+								0.8927536231884058,
+								0.48333333333333334,
+								0.9405797101449276,
+								0.9888888888888889,
+								0.49130434782608695,
+								0.9888888888888889,
+								0.04057971014492753,
+								0.9888888888888889,
+								0.008695652173913044,
+								0.48333333333333334
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 851412466740564,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

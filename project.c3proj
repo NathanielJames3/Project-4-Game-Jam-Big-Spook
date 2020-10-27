@@ -226,7 +226,10 @@
 			"characterTest2",
 			"Grass",
 			"Sun",
-			"Credits"
+			"Credits",
+			"PressAnyButton4",
+			"CreditsTitle",
+			"Website"
 		],
 		"subfolders": []
 	},
@@ -292,6 +295,11 @@
 					"name": "applause7.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 867406025232539
+				},
+				{
+					"name": "0477.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 736045038405715
 				}
 			],
 			"subfolders": []

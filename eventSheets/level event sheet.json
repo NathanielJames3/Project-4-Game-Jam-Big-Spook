@@ -310,6 +310,17 @@
 							}
 						},
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 131272361352826,
+							"parameters": {
+								"audio-file": "0477",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Blood",
 							"sid": 241608055307609,
@@ -1657,11 +1668,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 362374673181901,
+					"sid": 173185581126734,
 					"parameters": {
 						"audio-file": "closer",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				},
@@ -1719,11 +1730,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 672032585817290,
+					"sid": 402558242974186,
 					"parameters": {
 						"audio-file": "closer",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				},
