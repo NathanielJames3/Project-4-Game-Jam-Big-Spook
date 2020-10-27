@@ -5524,7 +5524,7 @@
 				{
 					"type": "SideEnemy_Trigger",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6881,7 +6881,7 @@
 				{
 					"type": "SideEnemy_Trigger2",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -6960,7 +6960,7 @@
 						"object": -1,
 						"live-preview": false,
 						"speed": 200,
-						"size": 32,
+						"size": 12,
 						"opacity": 100,
 						"grow-rate": 0,
 						"x-randomiser": 0,
