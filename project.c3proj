@@ -182,7 +182,10 @@
 			"EnemyAlert8",
 			"SideEnemy_Trigger2",
 			"Side_Enemy2",
-			"Blood"
+			"Blood",
+			"Title",
+			"PressAnyButton",
+			"Wall2"
 		],
 		"subfolders": []
 	},

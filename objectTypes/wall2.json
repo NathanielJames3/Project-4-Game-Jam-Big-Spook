@@ -1,0 +1,26 @@
+{
+	"name": "Wall2",
+	"plugin-id": "TiledBg",
+	"sid": 139210945280617,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 785630764468292
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 64,
+		"height": 64,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 1 (Game Jam)\\New_Piskel_2.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 8337984,
+		"useCollisionPoly": true
+	}
+}

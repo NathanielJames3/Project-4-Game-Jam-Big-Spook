@@ -1,0 +1,63 @@
+{
+	"name": "Title",
+	"plugin-id": "Sprite",
+	"sid": 432155864199912,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 503603135375017
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1522,
+						"height": 186,
+						"originX": 0.49178712220762155,
+						"originY": 0.45161290322580644,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Title.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5504277,
+						"collisionPoly": {
+							"points": [
+								0.000657030223390276,
+								0.026881720430107527,
+								0.49178712220762155,
+								0.005376344086021506,
+								0.9592641261498029,
+								0.21505376344086022,
+								0.9980289093298291,
+								0.45161290322580644,
+								0.9704336399474376,
+								0.7741935483870968,
+								0.49178712220762155,
+								0.7634408602150538,
+								0.013797634691195795,
+								0.7634408602150538,
+								0.000657030223390276,
+								0.45161290322580644
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 653294783308606,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
