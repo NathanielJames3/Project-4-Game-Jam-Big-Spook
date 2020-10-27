@@ -12,9 +12,18 @@
 			],
 			"actions": [
 				{
+					"id": "set-canvas-size",
+					"objectClass": "System",
+					"sid": 466247213707410,
+					"parameters": {
+						"width": "854",
+						"height": "480"
+					}
+				},
+				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 608906477556109,
+					"sid": 732759689211262,
 					"parameters": {
 						"audio-file": "enemy",
 						"loop": "not-looping",

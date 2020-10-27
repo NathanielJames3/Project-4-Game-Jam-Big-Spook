@@ -5,6 +5,28 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 838336340489582
+				}
+			],
+			"actions": [
+				{
+					"id": "set-canvas-size",
+					"objectClass": "System",
+					"sid": 495173038306334,
+					"parameters": {
+						"width": "854",
+						"height": "480"
+					}
+				}
+			],
+			"sid": 466233063802924
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-any-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 564485427927543

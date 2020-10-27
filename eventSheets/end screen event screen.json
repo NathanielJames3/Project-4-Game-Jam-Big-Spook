@@ -5,48 +5,34 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-moving",
-					"objectClass": "characterTest",
-					"sid": 889710980101971,
-					"behaviorType": "8Direction"
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 706793102309052
 				}
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "characterTest",
-					"sid": 147216503823373,
+					"id": "set-canvas-size",
+					"objectClass": "System",
+					"sid": 365238404116938,
 					"parameters": {
-						"animation": "\"Walking\"",
-						"from": "beginning"
+						"width": "854",
+						"height": "480"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 811095635108647,
+					"parameters": {
+						"audio-file": "applause7",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
 					}
 				}
 			],
-			"sid": 832048056538792,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-moving",
-					"objectClass": "characterTest",
-					"sid": 641921043623399,
-					"behaviorType": "Platform"
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "characterTest",
-					"sid": 708251523650500,
-					"parameters": {
-						"animation": "\"Walking\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 743685319102955
+			"sid": 817724968064238
 		},
 		{
 			"eventType": "block",
@@ -68,30 +54,6 @@
 				}
 			],
 			"sid": 384461323392686
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 411878408896796
-				}
-			],
-			"actions": [
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 890329125205972,
-					"parameters": {
-						"audio-file": "applause7",
-						"loop": "not-looping",
-						"volume": "0",
-						"tag-optional": "\"\""
-					}
-				}
-			],
-			"sid": 105226736722747
 		}
 	],
 	"sid": 865835808572025
