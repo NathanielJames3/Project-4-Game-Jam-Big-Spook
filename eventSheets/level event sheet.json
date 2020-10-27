@@ -67,7 +67,7 @@
 				},
 				{
 					"eventType": "comment",
-					"text": "Zooming in on player. Lighting for player, lighting for key."
+					"text": "Zooming in on player. Lighting for player, lighting for key, spawn postion for EnemyAlert and EnemyAlert_Trigger."
 				},
 				{
 					"eventType": "block",
@@ -721,7 +721,7 @@
 						},
 						{
 							"eventType": "comment",
-							"text": "Enemy activates the zoom in when overlapping."
+							"text": "Enemy activates the zoom in when overlapping, enemy alerat activated as well."
 						},
 						{
 							"eventType": "block",
@@ -1467,6 +1467,10 @@
 			"sid": 412683925447573
 		},
 		{
+			"eventType": "comment",
+			"text": "Side enemy."
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -1511,6 +1515,52 @@
 				}
 			],
 			"sid": 823249784301864
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 788628678154205,
+					"parameters": {
+						"object": "SideEnemy_Trigger2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-active",
+					"objectClass": "Side_Enemy2",
+					"sid": 208890537450927,
+					"behaviorType": "Sine",
+					"parameters": {
+						"state": "active"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Side_Enemy2",
+					"sid": 887438633174832,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 976352120741024,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Side_Enemy2",
+					"sid": 284701150063806
+				}
+			],
+			"sid": 934328028911134
 		}
 	],
 	"sid": 586479334890723

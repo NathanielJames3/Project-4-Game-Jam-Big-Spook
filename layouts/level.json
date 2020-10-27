@@ -531,7 +531,7 @@
 				{
 					"type": "Path_Arrow",
 					"properties": {
-						"initially-visible": true,
+						"initially-visible": false,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -819,7 +819,7 @@
 								"cell-size": 30,
 								"cell-border": -1,
 								"obstacles": "solids",
-								"max-speed": 150,
+								"max-speed": 130,
 								"acceleration": 1000,
 								"deceleration": 2000,
 								"rotate-speed": 300,
@@ -5936,7 +5936,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.7,
+								"lighting": 0.8,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -5980,7 +5980,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.5,
+								"lighting": 0.8,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6024,7 +6024,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.5,
+								"lighting": 0.8,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6068,7 +6068,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.5,
+								"lighting": 0.8,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6112,7 +6112,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.5,
+								"lighting": 0.8,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6156,7 +6156,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.7,
+								"lighting": 0.8,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6200,7 +6200,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.7,
+								"lighting": 0.8,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6244,7 +6244,7 @@
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 0.5,
+								"lighting": 0.8,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6802,6 +6802,79 @@
 							1
 						],
 						"angle": 4.71238898038469,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "SideEnemy_Trigger2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 179,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 516.6765217376569,
+						"y": 341.9277186534948,
+						"width": 8.227596375960502,
+						"height": 96.40967347672881,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Side_Enemy2",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 180,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "forwards-backwards",
+								"wave": "sine",
+								"period": 50,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 7000,
+								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 517.2636998511666,
+						"y": 169.16196213537432,
+						"width": 39.25557285278103,
+						"height": 39.25557285278103,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
 						"zElevation": 0
 					}
 				}

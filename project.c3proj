@@ -179,7 +179,9 @@
 			"EnemyAlert5",
 			"EnemyAlert6",
 			"EnemyAlert7",
-			"EnemyAlert8"
+			"EnemyAlert8",
+			"SideEnemy_Trigger2",
+			"Side_Enemy2"
 		],
 		"subfolders": []
 	},
