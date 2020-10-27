@@ -1,5 +1,27 @@
 {
 	"name": "StoryDirections Event sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 564485427927543
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 341041246549418,
+					"parameters": {
+						"layout": "Level"
+					}
+				}
+			],
+			"sid": 119794235139932
+		}
+	],
 	"sid": 630009666889041
 }

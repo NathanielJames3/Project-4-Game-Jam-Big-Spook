@@ -30,9 +30,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 753326592017650,
+					"sid": 352070713883474,
 					"parameters": {
-						"layout": "Level"
+						"layout": "Story"
 					}
 				}
 			],
@@ -49,11 +49,12 @@
 			],
 			"actions": [
 				{
-					"id": "set-layout-scale",
+					"id": "set-canvas-size",
 					"objectClass": "System",
-					"sid": 425026945550566,
+					"sid": 205079250393800,
 					"parameters": {
-						"scale": "1.0"
+						"width": "500",
+						"height": "400"
 					}
 				}
 			],

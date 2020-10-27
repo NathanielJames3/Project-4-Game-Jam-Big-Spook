@@ -1,0 +1,57 @@
+{
+	"name": "PressAnyButton2",
+	"plugin-id": "Sprite",
+	"sid": 591470763717668,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2538,
+						"height": 187,
+						"originX": 0.49625689519306543,
+						"originY": 0.3074866310160428,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Press any button.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 270299,
+						"collisionPoly": {
+							"points": [
+								0.052009456264775406,
+								0.2192513368983957,
+								0.49625689519306543,
+								0.2192513368983957,
+								0.9318360914105595,
+								0.3315508021390374,
+								0.9956658786446021,
+								0.3074866310160428,
+								0.9558707643814027,
+								0.6042780748663101,
+								0.49625689519306543,
+								0.7647058823529411,
+								0.046493301812450746,
+								0.46524064171123,
+								0.00039401103230890186,
+								0.3074866310160428
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 864869308966239,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

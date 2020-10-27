@@ -7037,8 +7037,8 @@
 					"world": {
 						"x": 1026,
 						"y": -354,
-						"width": 338,
-						"height": 443,
+						"width": 324,
+						"height": 470,
 						"originX": 0.3254437869822485,
 						"originY": 0.510158013544018,
 						"color": [
@@ -7161,7 +7161,7 @@
 				0,
 				1
 			],
-			"isTransparent": true,
+			"isTransparent": false,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,

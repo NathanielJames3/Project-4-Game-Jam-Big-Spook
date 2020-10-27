@@ -4,7 +4,37 @@
 		{
 			"name": "BG",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "PressAnyButton2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 203,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 421,
+						"y": 448,
+						"width": 381.9016887893723,
+						"height": 28.138540505757515,
+						"originX": 0.49625689519306543,
+						"originY": 0.3074866310160428,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 404434428602295,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -74,7 +104,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 432,
+						"x": 424,
 						"y": 94,
 						"width": 651.67382034091,
 						"height": 99.84381818642578,
