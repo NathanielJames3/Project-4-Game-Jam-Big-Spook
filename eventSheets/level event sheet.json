@@ -301,9 +301,43 @@
 					],
 					"actions": [
 						{
-							"id": "restart-layout",
+							"id": "set-enabled",
+							"objectClass": "Player",
+							"sid": 749819940087234,
+							"behaviorType": "8Direction",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Blood",
+							"sid": 241608055307609,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						},
+						{
+							"id": "wait",
 							"objectClass": "System",
-							"sid": 990981030046668
+							"sid": 224921527232176,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 802100338648614
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 843759275079686,
+							"parameters": {
+								"layout": "Death Screen"
+							}
 						}
 					],
 					"sid": 879109329730290

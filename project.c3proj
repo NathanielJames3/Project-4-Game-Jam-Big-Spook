@@ -181,7 +181,8 @@
 			"EnemyAlert7",
 			"EnemyAlert8",
 			"SideEnemy_Trigger2",
-			"Side_Enemy2"
+			"Side_Enemy2",
+			"Blood"
 		],
 		"subfolders": []
 	},
@@ -195,7 +196,8 @@
 		"items": [
 			"Level",
 			"Title Screen",
-			"End Screen"
+			"End Screen",
+			"Death Screen"
 		],
 		"subfolders": []
 	},
@@ -203,7 +205,8 @@
 		"items": [
 			"Level Event sheet",
 			"Title screen Event Sheet",
-			"End Screen Event Screen"
+			"End Screen Event Screen",
+			"Death Screen Event sheet"
 		],
 		"subfolders": []
 	},
@@ -228,6 +231,11 @@
 					"name": "heartbeat-speeding-up-01.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 925579669581793
+				},
+				{
+					"name": "enemy.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 691946800157556
 				}
 			],
 			"subfolders": []

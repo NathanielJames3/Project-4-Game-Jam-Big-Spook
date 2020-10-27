@@ -1,0 +1,30 @@
+{
+	"name": "Death Screen Event sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 641230038152016
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 608906477556109,
+					"parameters": {
+						"audio-file": "enemy",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 215767832996516
+		}
+	],
+	"sid": 257635018918798
+}
