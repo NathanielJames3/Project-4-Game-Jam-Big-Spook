@@ -196,7 +196,9 @@
 			"Wall2",
 			"characterTest",
 			"invisibleWall",
-			"EndScreen_Trigger2"
+			"EndScreen_Trigger2",
+			"FindTheKey",
+			"Beware"
 		],
 		"subfolders": []
 	},
@@ -211,7 +213,8 @@
 			"Level",
 			"Title Screen",
 			"End Screen",
-			"Death Screen"
+			"Death Screen",
+			"Story"
 		],
 		"subfolders": []
 	},
@@ -220,7 +223,8 @@
 			"Level Event sheet",
 			"Title screen Event Sheet",
 			"End Screen Event Screen",
-			"Death Screen Event sheet"
+			"Death Screen Event sheet",
+			"StoryDirections Event sheet"
 		],
 		"subfolders": []
 	},

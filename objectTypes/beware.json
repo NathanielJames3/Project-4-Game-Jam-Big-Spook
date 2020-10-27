@@ -1,0 +1,53 @@
+{
+	"name": "Beware",
+	"plugin-id": "Sprite",
+	"sid": 664541223181676,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2809,
+						"height": 388,
+						"originX": 0.49786400854396584,
+						"originY": 0.5012886597938144,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Story_Directions\\Beware.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4369905,
+						"collisionPoly": {
+							"points": [
+								0.011035955856176576,
+								0.002577319587628866,
+								0.49786400854396584,
+								0.10309278350515463,
+								0.9693841224635101,
+								0.11082474226804123,
+								0.8974724101103596,
+								0.36855670103092786,
+								0.49786400854396584,
+								0.9845360824742269,
+								0.09825560697757209,
+								0.36597938144329895
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 607545743497701,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

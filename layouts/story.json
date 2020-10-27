@@ -1,0 +1,155 @@
+{
+	"name": "Story",
+	"layers": [
+		{
+			"name": "BG",
+			"overriden": 0,
+			"instances": [],
+			"sid": 404434428602295,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.6470588235294118,
+				0.6313725490196078,
+				0.6313725490196078,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "GAME",
+			"overriden": 0,
+			"instances": [],
+			"sid": 856364564424451,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "UI",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "FindTheKey",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 191,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 432,
+						"y": 94,
+						"width": 651.67382034091,
+						"height": 99.84381818642578,
+						"originX": 0.49928238249013274,
+						"originY": 0.48711943793911006,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Beware",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 192,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 423,
+						"y": 250,
+						"width": 651.67382,
+						"height": 99.843818,
+						"originX": 0.49786400854396584,
+						"originY": 0.5012886597938144,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 734965876724942,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		}
+	],
+	"sid": 991132431118649,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1708,
+	"height": 960,
+	"unboundedScrolling": false,
+	"eventSheet": "StoryDirections Event sheet"
+}
