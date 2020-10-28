@@ -12,9 +12,17 @@
 			],
 			"actions": [
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 750629959950007,
+					"parameters": {
+						"tag": "\"MusicTrack\""
+					}
+				},
+				{
 					"id": "set-canvas-size",
 					"objectClass": "System",
-					"sid": 365238404116938,
+					"sid": 548489164941037,
 					"parameters": {
 						"width": "854",
 						"height": "480"
