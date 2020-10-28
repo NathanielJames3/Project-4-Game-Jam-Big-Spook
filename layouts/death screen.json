@@ -91,8 +91,81 @@
 						}
 					},
 					"world": {
-						"x": 402,
-						"y": 384,
+						"x": 403,
+						"y": 405,
+						"width": 481,
+						"height": 455,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.4363323129985824,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PressAnyButton3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 209,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 429,
+						"y": 130,
+						"width": 381.9016887893723,
+						"height": 28.138540505757515,
+						"originX": 0.49625689519306543,
+						"originY": 0.3074866310160428,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite7",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 225,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "forwards-backwards",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 2,
+								"period-offset-random": 0,
+								"magnitude": 10,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 357,
+						"y": 421,
 						"width": 481,
 						"height": 455,
 						"originX": 0.5,
@@ -138,35 +211,6 @@
 						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "PressAnyButton3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 209,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 429,
-						"y": 130,
-						"width": 381.9016887893723,
-						"height": 28.138540505757515,
-						"originX": 0.49625689519306543,
-						"originY": 0.3074866310160428,
 						"color": [
 							1,
 							1,

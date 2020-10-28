@@ -64,11 +64,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 960189510409651,
+							"sid": 689307335714715,
 							"parameters": {
 								"audio-file": "Dark-Things-2_V001",
 								"loop": "looping",
-								"volume": "-10",
+								"volume": "-5",
 								"tag-optional": "\"MusicTrack\""
 							}
 						},
@@ -1192,10 +1192,10 @@
 										{
 											"id": "fade-volume",
 											"objectClass": "Audio",
-											"sid": 984651565056971,
+											"sid": 733887525611318,
 											"parameters": {
 												"tag": "\"MusicTrack\"",
-												"db": "-10",
+												"db": "-5",
 												"duration": "1",
 												"ending": "keep-playing"
 											}

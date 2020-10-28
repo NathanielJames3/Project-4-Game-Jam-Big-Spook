@@ -1,14 +1,14 @@
 {
-	"name": "Sprite5",
+	"name": "Sprite7",
 	"plugin-id": "Sprite",
-	"sid": 351446036208083,
+	"sid": 664854058356873,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Sin",
 			"name": "Sine",
-			"sid": 528674277447979
+			"sid": 660076098461249
 		}
 	],
 	"effectTypes": [],
@@ -24,7 +24,7 @@
 						"originalSource": "C:\\Users\\Brandon Padron\\Downloads\\dead sprite.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2225086,
+						"imageSpriteId": 9294780,
 						"collisionPoly": {
 							"points": [
 								0.008278145695364239,
@@ -49,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 906090659118886,
+				"sid": 151373832080156,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
