@@ -136,14 +136,6 @@
 		},
 		{
 			"type": "effect",
-			"id": "burn",
-			"name": "Burn",
-			"author": "Scirra",
-			"version": "r218",
-			"bundled": false
-		},
-		{
-			"type": "effect",
 			"id": "pulse",
 			"name": "Pulse",
 			"author": "Danguafer/Silexars",
@@ -234,7 +226,8 @@
 			"Key2",
 			"Enemy2",
 			"Side_Enemy3",
-			"Sprite7"
+			"Sprite7",
+			"Sprite8"
 		],
 		"subfolders": []
 	},

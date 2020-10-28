@@ -7,10 +7,6 @@
 	"behaviorTypes": [],
 	"effectTypes": [
 		{
-			"effectId": "burn",
-			"name": "Burn"
-		},
-		{
 			"effectId": "pulse",
 			"name": "Pulse"
 		}

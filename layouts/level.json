@@ -798,69 +798,6 @@
 					}
 				},
 				{
-					"type": "Enemy",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						},
-						"Pathfinding": {
-							"properties": {
-								"cell-size": 30,
-								"cell-border": -1,
-								"obstacles": "solids",
-								"max-speed": 110,
-								"acceleration": 1000,
-								"deceleration": 2000,
-								"rotate-speed": 300,
-								"rotate-object": true,
-								"diagonals": true,
-								"enabled": true
-							}
-						},
-						"Flash": {
-							"properties": {}
-						},
-						"Bullet": {
-							"properties": {
-								"speed": 400,
-								"acceleration": 0,
-								"gravity": 0,
-								"bounce-off-solids": true,
-								"set-angle": true,
-								"step": false,
-								"enabled": false
-							}
-						}
-					},
-					"world": {
-						"x": 859.9541952256501,
-						"y": 477.3564279137792,
-						"width": 34.11202484624344,
-						"height": 41.49710239027552,
-						"originX": 0.5,
-						"originY": 0.5042372881355932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Platforms",
 					"properties": {
 						"initially-visible": true,
@@ -2300,46 +2237,6 @@
 							1
 						],
 						"angle": 1.5707963267948966,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Platforms",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 99,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 1313.3318066786258,
-						"y": 509.43223679704795,
-						"width": 387.6317168508716,
-						"height": 15.0574317608701,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				},
@@ -4826,9 +4723,9 @@
 					},
 					"world": {
 						"x": 1408.8231207133185,
-						"y": 619.8023634153648,
+						"y": 535.229236488266,
 						"width": 210.0787266983442,
-						"height": 85.351110331185,
+						"height": 169.92423725828377,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -4948,7 +4845,7 @@
 						"x": 1283.228514825047,
 						"y": 421.14607855745,
 						"width": 408.86611405152064,
-						"height": 127.9125090165557,
+						"height": 43.699268501605275,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -4986,9 +4883,9 @@
 					},
 					"world": {
 						"x": 1256.3024250460135,
-						"y": 544.491170769473,
+						"y": 464.1668535756141,
 						"width": 85.95513774670417,
-						"height": 30.34109959156757,
+						"height": 108.48244251628216,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -5839,13 +5736,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
-						"Burn": {
-							"parameters": {}
-						},
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 1,
+								"lighting": 0.5,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -5883,13 +5777,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
-						"Burn": {
-							"parameters": {}
-						},
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 1,
+								"lighting": 0.5,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -5927,13 +5818,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
-						"Burn": {
-							"parameters": {}
-						},
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 1,
+								"lighting": 0.5,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -5971,13 +5859,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
-						"Burn": {
-							"parameters": {}
-						},
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 1,
+								"lighting": 0.5,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6015,13 +5900,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
-						"Burn": {
-							"parameters": {}
-						},
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 1,
+								"lighting": 0.5,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6059,13 +5941,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
-						"Burn": {
-							"parameters": {}
-						},
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 1,
+								"lighting": 0.5,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6103,13 +5982,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
-						"Burn": {
-							"parameters": {}
-						},
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 1,
+								"lighting": 0.5,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6147,13 +6023,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
-						"Burn": {
-							"parameters": {}
-						},
 						"Pulse": {
 							"parameters": {
 								"intensity": 1,
-								"lighting": 1,
+								"lighting": 0.5,
 								"speed": 10,
 								"frequency": 30,
 								"center-x": 0.5,
@@ -6341,6 +6214,69 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						},
+						"Pathfinding": {
+							"properties": {
+								"cell-size": 30,
+								"cell-border": -1,
+								"obstacles": "solids",
+								"max-speed": 90,
+								"acceleration": 1000,
+								"deceleration": 2000,
+								"rotate-speed": 300,
+								"rotate-object": true,
+								"diagonals": true,
+								"enabled": true
+							}
+						},
+						"Flash": {
+							"properties": {}
+						},
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": true,
+								"set-angle": true,
+								"step": false,
+								"enabled": false
+							}
+						}
+					},
+					"world": {
+						"x": 859.9541952256501,
+						"y": 477.3564279137792,
+						"width": 34.11202484624344,
+						"height": 41.49710239027552,
+						"originX": 0.5,
+						"originY": 0.5042372881355932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 710154849311361,
@@ -6414,10 +6350,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -213.97079013388668,
-						"y": 447.0292098661133,
-						"width": 186.05841973222664,
-						"height": 186.05841973222664,
+						"x": -198.73561751228704,
+						"y": 458.76438248771296,
+						"width": 216.5287649754259,
+						"height": 209.5287649754259,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -6517,8 +6453,8 @@
 						}
 					},
 					"world": {
-						"x": 1650.9726091780246,
-						"y": 591.4574615078867,
+						"x": 1653.7070439815132,
+						"y": 502.78364716618694,
 						"width": 22.37250772597476,
 						"height": 33.50624396519225,
 						"originX": 0.5,
@@ -6817,9 +6753,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 1569.8873576837284,
-						"y": 279.5194734973097,
+						"y": 345.37765600044156,
 						"width": 297.73626508526144,
-						"height": 138.2229148694143,
+						"height": 269.93927987567804,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -7306,6 +7242,88 @@
 							1
 						],
 						"angle": 1.6106780201439759,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite6",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 226,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Pulse": {
+							"parameters": {
+								"intensity": 1,
+								"lighting": 0.5,
+								"speed": 10,
+								"frequency": 30,
+								"center-x": 0.5,
+								"center-y": 0.5
+							}
+						}
+					},
+					"world": {
+						"x": 668.8025433921174,
+						"y": 833.2080540750386,
+						"width": 10.732735111910245,
+						"height": 18.807179780615172,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.74405676613021,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite6",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 227,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Pulse": {
+							"parameters": {
+								"intensity": 1,
+								"lighting": 0.5,
+								"speed": 10,
+								"frequency": 30,
+								"center-x": 0.5,
+								"center-y": 0.5
+							}
+						}
+					},
+					"world": {
+						"x": 571.6553627017004,
+						"y": 408.6701991557187,
+						"width": 10.732735111910245,
+						"height": 18.807179780615172,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0.006102864136929398,
 						"zElevation": 0
 					}
 				}

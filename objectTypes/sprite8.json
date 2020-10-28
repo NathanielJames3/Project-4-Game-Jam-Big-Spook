@@ -1,7 +1,7 @@
 {
-	"name": "EnemyAlert",
+	"name": "Sprite8",
 	"plugin-id": "Sprite",
-	"sid": 922285366250906,
+	"sid": 800358184213314,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -23,12 +23,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2864004,
+						"imageSpriteId": 5858103,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 934683986351475,
+				"sid": 371456853761340,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

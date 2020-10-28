@@ -193,6 +193,47 @@
 						"angle": 1.5707963267948966,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Sprite8",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 99,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Pulse": {
+							"parameters": {
+								"intensity": 0.5,
+								"lighting": 0.5,
+								"speed": 10,
+								"frequency": 30,
+								"center-x": 0.5,
+								"center-y": 0.5
+							}
+						}
+					},
+					"world": {
+						"x": 256.09398779313705,
+						"y": 132.93889662956195,
+						"width": 24.59352877047055,
+						"height": 43.095717187009555,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 404434428602295,
@@ -264,12 +305,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 418,
-						"y": 110,
-						"width": 686.5139348837142,
-						"height": 99.84381818642578,
-						"originX": 0.48505267509331934,
-						"originY": 0.43750251350330077,
+						"x": 427,
+						"y": 93,
+						"width": 598.127604030157,
+						"height": 155.96212349027167,
+						"originX": 0.49717304260200496,
+						"originY": 0.2275236800013383,
 						"color": [
 							1,
 							1,
@@ -293,12 +334,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 428,
-						"y": 256,
-						"width": 651.67382,
+						"x": 439,
+						"y": 294,
+						"width": 650.2818502883588,
 						"height": 99.843818,
-						"originX": 0.49786400854396584,
-						"originY": 0.5012886597938144,
+						"originX": 0.5161793287896417,
+						"originY": 0.40305159953236275,
 						"color": [
 							1,
 							1,
@@ -337,8 +378,8 @@
 						}
 					},
 					"world": {
-						"x": 370.61592284661083,
-						"y": 85.08917142046991,
+						"x": 410,
+						"y": 77,
 						"width": 33.30875690631781,
 						"height": 49.88494578927409,
 						"originX": 0.5,

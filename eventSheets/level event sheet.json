@@ -1668,11 +1668,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 173185581126734,
+					"sid": 404889002835409,
 					"parameters": {
 						"audio-file": "closer",
 						"loop": "not-looping",
-						"volume": "-10",
+						"volume": "-15",
 						"tag-optional": "\"\""
 					}
 				},
@@ -1730,11 +1730,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 402558242974186,
+					"sid": 919939044141780,
 					"parameters": {
 						"audio-file": "closer",
 						"loop": "not-looping",
-						"volume": "-10",
+						"volume": "-15",
 						"tag-optional": "\"\""
 					}
 				},
