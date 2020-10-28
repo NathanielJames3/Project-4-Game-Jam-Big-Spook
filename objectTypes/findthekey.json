@@ -11,27 +11,27 @@
 			{
 				"frames": [
 					{
-						"width": 2787,
+						"width": 2936,
 						"height": 427,
-						"originX": 0.49243926740187055,
-						"originY": 0.4835544537621552,
-						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Credits\\Find the key.png",
+						"originX": 0.48505267509331934,
+						"originY": 0.43750251350330077,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Story_Directions\\find the key2.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5933596,
+						"imageSpriteId": 641270,
 						"collisionPoly": {
 							"points": [
-								0.0001449654316667615,
 								0,
-								0.49243926740187055,
 								0,
-								0.982131787481707,
+								0.48505267509331934,
 								0,
-								0.9862203018808557,
 								1,
-								0.49243926740187055,
+								0,
 								1,
-								0.004605162958010623,
+								1,
+								0.48505267509331934,
+								1,
+								0,
 								1
 							]
 						},

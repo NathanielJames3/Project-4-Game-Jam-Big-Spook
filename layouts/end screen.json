@@ -219,8 +219,8 @@
 						}
 					},
 					"world": {
-						"x": 153,
-						"y": -144,
+						"x": -403,
+						"y": -82,
 						"width": 92.96151462806952,
 						"height": 151.1767582148278,
 						"originX": 0.11749302863361222,
@@ -269,7 +269,7 @@
 								"double-jump": false,
 								"jump-sustain": 0,
 								"default-controls": true,
-								"enabled": true
+								"enabled": false
 							}
 						}
 					},

@@ -229,7 +229,11 @@
 			"Credits",
 			"PressAnyButton4",
 			"CreditsTitle",
-			"Website"
+			"Website",
+			"Sprite6",
+			"Key2",
+			"Enemy2",
+			"Side_Enemy3"
 		],
 		"subfolders": []
 	},

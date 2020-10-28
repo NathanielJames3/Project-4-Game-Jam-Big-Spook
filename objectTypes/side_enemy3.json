@@ -1,29 +1,35 @@
 {
-	"name": "PointLight_Player3",
+	"name": "Side_Enemy3",
 	"plugin-id": "Sprite",
-	"sid": 808040553610630,
+	"sid": 489673704299080,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 825253292362793
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 350,
-						"height": 350,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
+						"width": 527,
+						"height": 569,
+						"originX": 0.5151802656546489,
+						"originY": 0.4753954305799648,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Enemies\\Side Enemies.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7235617,
+						"imageSpriteId": 2011785,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 186235205104381,
+				"sid": 826024825484363,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

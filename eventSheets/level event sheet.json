@@ -303,7 +303,7 @@
 						{
 							"id": "set-enabled",
 							"objectClass": "Player",
-							"sid": 749819940087234,
+							"sid": 575743327569281,
 							"behaviorType": "8Direction",
 							"parameters": {
 								"state": "disabled"

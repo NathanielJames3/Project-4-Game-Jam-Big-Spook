@@ -1,0 +1,83 @@
+{
+	"name": "Enemy2",
+	"plugin-id": "Sprite",
+	"sid": 718261256739677,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 539757178602672
+		},
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 675531985795790
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Flash",
+			"sid": 221892614861852
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 760144328588933
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 481696631120382
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 485,
+						"height": 590,
+						"originX": 0.5,
+						"originY": 0.5042372881355932,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Enemies\\Main Enemy.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4561685,
+						"collisionPoly": {
+							"points": [
+								0.9979381443298969,
+								0.5042372881355932,
+								0.8515463917525773,
+								0.8898305084745762,
+								0.5,
+								0.9966101694915255,
+								0.17731958762886602,
+								0.8677966101694915,
+								0.004123711340206171,
+								0.5042372881355932,
+								0.14020618556701026,
+								0.10847457627118644,
+								0.5,
+								0.1440677966101695,
+								0.7814432989690723,
+								0.17457627118644067
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 574252479642988,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
