@@ -11,24 +11,24 @@
 			{
 				"frames": [
 					{
-						"width": 532,
-						"height": 329,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "C:\\Users\\Brandon Padron\\Downloads\\Game Over.png",
+						"width": 990,
+						"height": 149,
+						"originX": 0.4863636363636364,
+						"originY": 0.5738255033557047,
+						"originalSource": "D:\\Photoshop\\Group Game Project 1\\Project 4 (Game Jam)\\Credits\\Game Over.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1796125,
+						"imageSpriteId": 3754047,
 						"collisionPoly": {
 							"points": [
-								0.5,
-								0.22492401215805471,
-								0.5714285714285714,
-								0.3069908814589666,
-								0.5,
-								0.2735562310030395,
-								0.4642857142857143,
-								0.24620060790273557
+								0.4863636363636364,
+								0.09936557801758432,
+								0.5633477633477633,
+								0.2409171579527142,
+								0.4863636363636364,
+								0.1832479957569205,
+								0.4478715728715729,
+								0.1360641357785439
 							]
 						},
 						"useCollisionPoly": true,
